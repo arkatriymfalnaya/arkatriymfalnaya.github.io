@@ -1,10 +1,11 @@
 ---
 layout: post
-title:  "Что такое базы данных и SQL?"
+title:  "Let`s talk about dbs and sql"
 date:   2018-11-10 22:18:45 +0300
 categories: Databases
-pic: ./images/bg.jpg
-odd: 4
+desc: Великий Оксмокс предупреждал ее о злых запятых, диких знаках вопроса и коварных точках с запятой, но текст не дал сбить себя с толку.
+pic: ./images/posts/10.jpg
+line: half
 ---
 You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
 

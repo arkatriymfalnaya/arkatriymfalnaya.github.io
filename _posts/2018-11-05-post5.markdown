@@ -1,10 +1,11 @@
 ---
 layout: post
-title:  "Игра на запоминание карточек"
+title:  "Let`s talk about games"
 date:   2018-11-05 22:18:45 +0300
 categories: JS
-pic: ./images/bg.jpg
-odd: 2
+desc: Великий Оксмокс предупреждал ее о злых запятых, диких знаках вопроса и коварных точках с запятой, но текст не дал сбить себя с толку.
+pic: ./images/posts/5.jpg
+line: full
 ---
 You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
 

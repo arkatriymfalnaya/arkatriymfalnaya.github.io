@@ -22,81 +22,52 @@ layout: default
     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus, minus?</p>
   </div>
 
+</div> -->
+
+<!-- <div class="post__grid">
+
+  {% for post in paginator.posts %}
+
+    {% if post.line == 'full' %}
+
+    <div class="post__item post__item_cell-full">
+      <div class="post__item-container" style="background: url({{ site.baseurl }}/{{ post.pic }}) no-repeat center center;background-size:cover;"></div>
+      <div class="post__item-container">
+          <div class="post__info post__info_cell-full">
+              <a class="post__title post__title_cell-full" href="{{ post.url | prepend: site.baseurl }}">{{ post.categories }} / {{ post.title }}</a>
+              <p class="post__desc">{{ post.desc }} <a href="{{ post.url | prepend: site.baseurl }}" class="post__show-more">Читать..</a></p>
+          </div>
+      </div>
+    </div>
+
+    {% else %}
+
+      <a class="post__item post__item_cell-half" style="background: url({{ site.baseurl }}/{{ post.pic }}) no-repeat center center;background-size:cover;" href="{{ post.url | prepend: site.baseurl }}">
+        <p class="post__info post__info_cell-half">
+            <span class="post__title post__title_cell-half">{{ post.categories }} / {{ post.title }}</span>
+        </p>
+      </a>
+
+    {% endif %}
+
+  {% endfor %}
+
 </div>
 
-<div class="grid-container">
-
-  <div class="post__grid">
-
-    {% for post in paginator.posts %}
-
-      {% if post.odd == 1 %}
-
-        <a class="post__item post__item_cell-1" style="background: url({{ site.baseurl }}/{{ post.pic }}) no-repeat center center;background-size:cover;" href="{{ post.url | prepend: site.baseurl }}">
-          <p class="post__info">
-              <span class="post__title">{{ post.categories }} | {{ post.title }}</span>
-              <span class="post__date">{{ post.date | date: "%b %-d, %Y" }}</span>
-          </p>
-        </a>
-
-      {% elsif post.odd == 2 %}
-
-      <a class="post__item post__item_cell-2" style="background: url({{ site.baseurl }}/{{ post.pic }}) no-repeat center center;background-size:cover;" href="{{ post.url | prepend: site.baseurl }}">
-        <p class="post__info">
-            <span class="post__title">{{ post.categories }} | {{ post.title }}</span>
-            <span class="post__date">{{ post.date | date: "%b %-d, %Y" }}</span>
-        </p>
-      </a>
-
-      {% elsif post.odd == 3 %}
-
-      <a class="post__item post__item_cell-3" style="background: url({{ site.baseurl }}/{{ post.pic }}) no-repeat center center;background-size:cover;" href="{{ post.url | prepend: site.baseurl }}">
-        <p class="post__info">
-            <span class="post__title">{{ post.categories }} | {{ post.title }}</span>
-            <span class="post__date">{{ post.date | date: "%b %-d, %Y" }}</span>
-        </p>
-      </a>
-
-      {% elsif post.odd == 4 %}
-
-      <a class="post__item post__item_cell-4" style="background: url({{ site.baseurl }}/{{ post.pic }}) no-repeat center center;background-size:cover;" href="{{ post.url | prepend: site.baseurl }}">
-        <p class="post__info">
-            <span class="post__title">{{ post.categories }} | {{ post.title }}</span>
-            <span class="post__date">{{ post.date | date: "%b %-d, %Y" }}</span>
-        </p>
-      </a>
-
-      {% else %}
-
-      <a class="post__item" style="background: url({{ site.baseurl }}/{{ post.pic }}) no-repeat center center;background-size:cover;" href="{{ post.url | prepend: site.baseurl }}">
-        <p class="post__info">
-            <span class="post__title">{{ post.categories }} | {{ post.title }}</span>
-            <span class="post__date">{{ post.date | date: "%b %-d, %Y" }}</span>
-        </p>
-      </a>
-
-      {% endif %}
-
-    {% endfor %}
-
-  </div>
-
-  <div class="pagination">
-    {% if paginator.previous_page %}
-      <a href="{{ paginator.previous_page_path }}" class="pagination__previous pagination__previous_av">
-        Назад
-      </a>
-    {% else %}
-      <span class="pagination__previous pagination__previous_unav">Назад</span>
-    {% endif %}
-      <span class="pagination__page-number ">
-        Страница: {{ paginator.page }} из {{ paginator.total_pages }}
-      </span>
-    {% if paginator.next_page %}
-      <a href="{{ paginator.next_page_path }}" class="pagination__next pagination__next_av">Вперёд</a>
-    {% else %}
-      <span class="pagination__next pagination__next_unav">Вперёд</span>
-    {% endif %}
-  </div>
-
+<div class="pagination">
+  {% if paginator.previous_page %}
+    <a href="{{ paginator.previous_page_path }}" class="pagination__previous pagination__previous_av">
+      Назад
+    </a>
+  {% else %}
+    <span class="pagination__previous pagination__previous_unav">Назад</span>
+  {% endif %}
+    <span class="pagination__page-number ">
+      Страница: {{ paginator.page }} из {{ paginator.total_pages }}
+    </span>
+  {% if paginator.next_page %}
+    <a href="{{ paginator.next_page_path }}" class="pagination__next pagination__next_av">Вперёд</a>
+  {% else %}
+    <span class="pagination__next pagination__next_unav">Вперёд</span>
+  {% endif %}
 </div> -->

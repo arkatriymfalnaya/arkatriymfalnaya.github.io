@@ -6,17 +6,18 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>Введение</title>
-    <meta name="description" content="You’ll find this post in your _posts directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different wa...">
+    <title>uno blog</title>
+    <meta name="description" content="Переводы новостей, статей и туториалов по веб-разработке.
+">
 
-    <link href="https://fonts.googleapis.com/css?family=Ubuntu:300,400,500" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700" rel="stylesheet">
     <link rel="stylesheet" href="/css/main.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/foundation-sites@6.5.1/dist/css/foundation.min.css"
         integrity="sha256-1mcRjtAxlSjp6XJBgrBeeCORfBp/ppyX4tsvpQVCcpA= sha384-b5S5X654rX3Wo6z5/hnQ4GBmKuIJKMPwrJXn52ypjztlnDK2w9+9hSMBz/asy9Gw sha512-M1VveR2JGzpgWHb0elGqPTltHK3xbvu3Brgjfg4cg5ZNtyyApxw/45yHYsZ/rCVbfoO5MSZxB241wWq642jLtA=="
         crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/foundation-sites@6.5.1/dist/js/foundation.min.js" integrity="sha256-WUKHnLrIrx8dew//IpSEmPN/NT3DGAEmIePQYIEJLLs= sha384-53StQWuVbn6figscdDC3xV00aYCPEz3srBdV/QGSXw3f19og3Tq2wTRe0vJqRTEO sha512-X9O+2f1ty1rzBJOC8AXBnuNUdyJg0m8xMKmbt9I3Vu/UOWmSg5zG+dtnje4wAZrKtkopz/PEDClHZ1LXx5IeOw=="
         crossorigin="anonymous"></script>
-    <link rel="canonical" href="http://localhost:4000/handlebars/2018/11/08/post8.html">
+    <link rel="canonical" href="http://localhost:4000/page2/">
     <link rel="alternate" type="application/rss+xml" title="uno blog" href="http://localhost:4000/feed.xml">
 
     <!-- Yandex.Metrika counter -->
@@ -63,15 +64,16 @@
           <div class="gn-scroller">
             <ul class="gn-menu">
               <li>
-                <a class="gn-icon gn-icon-download">JS</a>
-                <!-- <ul class="gn-submenu">
-                  <li><a class="gn-icon gn-icon-illustrator">Vector Illustrations</a></li>
-                  <li><a class="gn-icon gn-icon-photoshop">Photoshop files</a></li>
-                </ul> -->
+                <span class="gn-icon gn-icon-download">Темы</span>
+                <ul class="gn-submenu">
+                  <li><a class="gn-icon gn-icon-illustrator">JS</a></li>
+                  <li><a class="gn-icon gn-icon-photoshop">NodeJS</a></li>
+                  <li><a class="gn-icon gn-icon-illustrator">Databases</a></li>
+                  <li><a class="gn-icon gn-icon-photoshop">UX</a></li>
+                  <li><a class="gn-icon gn-icon-photoshop">Разное</a></li>
+                </ul>
               </li>
-              <li><a class="gn-icon gn-icon-cog">NodeJS</a></li>
-              <li><a class="gn-icon gn-icon-help">Databases</a></li>
-              <li><a class="gn-icon gn-icon-archive">UX</a></li>
+              <li><a class="gn-icon gn-icon-cog">Обо мне</a></li>
             </ul>
           </div><!-- /gn-scroller -->
         </nav>
@@ -80,38 +82,130 @@
     </ul>
   </div><!-- /container -->
   
-  <div class="grid-container">
+  <!-- ---
+layout: 404
+--- -->
+<!-- <ul>
+    
+</ul> -->
+
+<!-- <div class="shield">
+
+  <div class="shield__pic">
+    <img src="/images/header__shield-pic.jpg" alt="">
+  </div>
+
+  <div class="shield__desc">
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus, minus?</p>
+  </div>
+
+</div> -->
+
+<div class="post__grid">
+
   
-  <article class="post__article" itemscope itemtype="http://schema.org/BlogPosting">
 
-    <header class="post__header">
-      <h1 class="post__title" itemprop="name headline">Введение</h1>
-      <p class="post__date"><time datetime="2018-11-08T22:18:45+03:00" itemprop="datePublished">Nov 8, 2018</time></p>
-    </header>
+    
 
-    <div class="post__content" itemprop="articleBody">
-      <p>You’ll find this post in your <code class="highlighter-rouge">_posts</code> directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run <code class="highlighter-rouge">jekyll serve</code>, which launches a web server and auto-regenerates your site when a file is updated.</p>
+      <a class="post__item post__item_cell-half" style="background: url(/./images/posts/6.jpg) no-repeat center center;background-size:cover;" href="/js/2018/11/06/post6.html">
+        <p class="post__info post__info_cell-half">
+            <span class="post__title post__title_cell-half">JS / Let`s talk about vanilla.js</span>
+        </p>
+      </a>
 
-<p>To add new posts, simply add a file in the <code class="highlighter-rouge">_posts</code> directory that follows the convention <code class="highlighter-rouge">YYYY-MM-DD-name-of-post.ext</code> and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.</p>
+    
 
-<p>Jekyll also offers powerful support for code snippets:</p>
+  
 
-<figure class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="k">def</span> <span class="nf">print_hi</span><span class="p">(</span><span class="nb">name</span><span class="p">)</span>
-  <span class="nb">puts</span> <span class="s2">"Hi, </span><span class="si">#{</span><span class="nb">name</span><span class="si">}</span><span class="s2">"</span>
-<span class="k">end</span>
-<span class="n">print_hi</span><span class="p">(</span><span class="s1">'Tom'</span><span class="p">)</span>
-<span class="c1">#=&gt; prints 'Hi, Tom' to STDOUT.</span></code></pre></figure>
+    
 
-<p>Check out the <a href="http://jekyllrb.com/docs/home">Jekyll docs</a> for more info on how to get the most out of Jekyll. File all bugs/feature requests at <a href="https://github.com/jekyll/jekyll">Jekyll’s GitHub repo</a>. If you have questions, you can ask them on <a href="https://talk.jekyllrb.com/">Jekyll Talk</a>.</p>
-
-
+    <div class="post__item post__item_cell-full">
+      <div class="post__item-container" style="background: url(/./images/posts/5.jpg) no-repeat center center;background-size:cover;"></div>
+      <div class="post__item-container">
+          <div class="post__info post__info_cell-full">
+              <a class="post__title post__title_cell-full" href="/js/2018/11/05/post5.html">JS / Let`s talk about games</a>
+              <p class="post__desc">Великий Оксмокс предупреждал ее о злых запятых, диких знаках вопроса и коварных точках с запятой, но текст не дал сбить себя с толку. <a href="/js/2018/11/05/post5.html" class="post__show-more">Читать..</a></p>
+          </div>
+      </div>
     </div>
 
-  </article>
+    
+
+  
+
+    
+
+    <div class="post__item post__item_cell-full">
+      <div class="post__item-container" style="background: url(/./images/posts/4.jpg) no-repeat center center;background-size:cover;"></div>
+      <div class="post__item-container">
+          <div class="post__info post__info_cell-full">
+              <a class="post__title post__title_cell-full" href="/nodejs/2018/11/04/post4.html">NodeJS / Let`s talk about express.js</a>
+              <p class="post__desc">Великий Оксмокс предупреждал ее о злых запятых, диких знаках вопроса и коварных точках с запятой, но текст не дал сбить себя с толку. <a href="/nodejs/2018/11/04/post4.html" class="post__show-more">Читать..</a></p>
+          </div>
+      </div>
+    </div>
+
+    
+
+  
+
+    
+
+      <a class="post__item post__item_cell-half" style="background: url(/./images/posts/3.jpg) no-repeat center center;background-size:cover;" href="/js/2018/11/03/post3.html">
+        <p class="post__info post__info_cell-half">
+            <span class="post__title post__title_cell-half">JS / Let`s talk about Jesus map, filter and reduce</span>
+        </p>
+      </a>
+
+    
+
+  
+
+    
+
+      <a class="post__item post__item_cell-half" style="background: url(/./images/posts/2.jpg) no-repeat center center;background-size:cover;" href="/js/2018/11/02/post2.html">
+        <p class="post__info post__info_cell-half">
+            <span class="post__title post__title_cell-half">JS / Let`s talk about forEach and forIn</span>
+        </p>
+      </a>
+
+    
+
+  
+
+    
+
+    <div class="post__item post__item_cell-full">
+      <div class="post__item-container" style="background: url(/./images/posts/1.jpg) no-repeat center center;background-size:cover;"></div>
+      <div class="post__item-container">
+          <div class="post__info post__info_cell-full">
+              <a class="post__title post__title_cell-full" href="/js/2018/11/01/post1.html">JS / Let`s talk about Jesus</a>
+              <p class="post__desc">Великий Оксмокс предупреждал ее о злых запятых, диких знаках вопроса и коварных точках с запятой, но текст не дал сбить себя с толку. <a href="/js/2018/11/01/post1.html" class="post__show-more">Читать..</a></p>
+          </div>
+      </div>
+    </div>
+
+    
+
+  
+
+</div>
+
+<div class="pagination">
+  
+    <a href="/" class="pagination__previous pagination__previous_av">
+      Назад
+    </a>
+  
+    <span class="pagination__page-number ">
+      Страница: 2 из 2
+    </span>
+  
+    <span class="pagination__next pagination__next_unav">Вперёд</span>
   
 </div>
 
-  <footer class="footer">
+  <!-- <footer class="footer">
 
   <div class="grid-container">
 
@@ -150,7 +244,7 @@
 
   </div>
 
-</footer>
+</footer> -->
 
 
   <script src="http://localhost:4000/js/classie.js"></script>
