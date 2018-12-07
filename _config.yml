@@ -16,7 +16,7 @@ twitter_username: jekyllrb
 github_username:  jekyll
 
 plugins: [jekyll-paginate]
-paginate: 10
+paginate: 12
 
 # Build settings
 markdown: kramdown

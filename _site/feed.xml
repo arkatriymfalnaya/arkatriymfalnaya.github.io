@@ -6,38 +6,12 @@
 </description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Fri, 07 Dec 2018 03:16:42 +0300</pubDate>
-    <lastBuildDate>Fri, 07 Dec 2018 03:16:42 +0300</lastBuildDate>
+    <pubDate>Fri, 07 Dec 2018 22:52:56 +0300</pubDate>
+    <lastBuildDate>Fri, 07 Dec 2018 22:52:56 +0300</lastBuildDate>
     <generator>Jekyll v3.8.5</generator>
     
       <item>
-        <title>JavaScript –  Запускаем Mocha тесты как нативные ES6 модули в браузере</title>
-        <description>&lt;p&gt;You’ll find this post in your &lt;code class=&quot;highlighter-rouge&quot;&gt;_posts&lt;/code&gt; directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run &lt;code class=&quot;highlighter-rouge&quot;&gt;jekyll serve&lt;/code&gt;, which launches a web server and auto-regenerates your site when a file is updated.&lt;/p&gt;
-
-&lt;p&gt;To add new posts, simply add a file in the &lt;code class=&quot;highlighter-rouge&quot;&gt;_posts&lt;/code&gt; directory that follows the convention &lt;code class=&quot;highlighter-rouge&quot;&gt;YYYY-MM-DD-name-of-post.ext&lt;/code&gt; and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.&lt;/p&gt;
-
-&lt;p&gt;Jekyll also offers powerful support for code snippets:&lt;/p&gt;
-
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-  &lt;span class=&quot;nb&quot;&gt;puts&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;Hi, &lt;/span&gt;&lt;span class=&quot;si&quot;&gt;#{&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;
-&lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
-&lt;span class=&quot;n&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'Tom'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-&lt;span class=&quot;c1&quot;&gt;#=&amp;gt; prints 'Hi, Tom' to STDOUT.&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
-
-&lt;p&gt;Check out the &lt;a href=&quot;http://jekyllrb.com/docs/home&quot;&gt;Jekyll docs&lt;/a&gt; for more info on how to get the most out of Jekyll. File all bugs/feature requests at &lt;a href=&quot;https://github.com/jekyll/jekyll&quot;&gt;Jekyll’s GitHub repo&lt;/a&gt;. If you have questions, you can ask them on &lt;a href=&quot;https://talk.jekyllrb.com/&quot;&gt;Jekyll Talk&lt;/a&gt;.&lt;/p&gt;
-
-</description>
-        <pubDate>Tue, 13 Nov 2018 22:18:45 +0300</pubDate>
-        <link>http://localhost:4000/test/2018/11/13/post13.html</link>
-        <guid isPermaLink="true">http://localhost:4000/test/2018/11/13/post13.html</guid>
-        
-        
-        <category>test</category>
-        
-      </item>
-    
-      <item>
-        <title>NODE.JS – Внедряем Sequelize в Node.js приложение</title>
+        <title>Внедряем Sequelize в Node.js приложение</title>
         <description>&lt;p&gt;You’ll find this post in your &lt;code class=&quot;highlighter-rouge&quot;&gt;_posts&lt;/code&gt; directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run &lt;code class=&quot;highlighter-rouge&quot;&gt;jekyll serve&lt;/code&gt;, which launches a web server and auto-regenerates your site when a file is updated.&lt;/p&gt;
 
 &lt;p&gt;To add new posts, simply add a file in the &lt;code class=&quot;highlighter-rouge&quot;&gt;_posts&lt;/code&gt; directory that follows the convention &lt;code class=&quot;highlighter-rouge&quot;&gt;YYYY-MM-DD-name-of-post.ext&lt;/code&gt; and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.&lt;/p&gt;
@@ -54,16 +28,16 @@
 
 </description>
         <pubDate>Mon, 12 Nov 2018 22:18:45 +0300</pubDate>
-        <link>http://localhost:4000/test/2018/11/12/post12.html</link>
-        <guid isPermaLink="true">http://localhost:4000/test/2018/11/12/post12.html</guid>
+        <link>http://localhost:4000/nodejs/2018/11/12/post12.html</link>
+        <guid isPermaLink="true">http://localhost:4000/nodejs/2018/11/12/post12.html</guid>
         
         
-        <category>test</category>
+        <category>NodeJS</category>
         
       </item>
     
       <item>
-        <title>JavaScript– Гайд по API</title>
+        <title>Гайд по API</title>
         <description>&lt;p&gt;You’ll find this post in your &lt;code class=&quot;highlighter-rouge&quot;&gt;_posts&lt;/code&gt; directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run &lt;code class=&quot;highlighter-rouge&quot;&gt;jekyll serve&lt;/code&gt;, which launches a web server and auto-regenerates your site when a file is updated.&lt;/p&gt;
 
 &lt;p&gt;To add new posts, simply add a file in the &lt;code class=&quot;highlighter-rouge&quot;&gt;_posts&lt;/code&gt; directory that follows the convention &lt;code class=&quot;highlighter-rouge&quot;&gt;YYYY-MM-DD-name-of-post.ext&lt;/code&gt; and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.&lt;/p&gt;
@@ -80,16 +54,16 @@
 
 </description>
         <pubDate>Sun, 11 Nov 2018 22:18:45 +0300</pubDate>
-        <link>http://localhost:4000/test/2018/11/11/post11.html</link>
-        <guid isPermaLink="true">http://localhost:4000/test/2018/11/11/post11.html</guid>
+        <link>http://localhost:4000/js/2018/11/11/post11.html</link>
+        <guid isPermaLink="true">http://localhost:4000/js/2018/11/11/post11.html</guid>
         
         
-        <category>test</category>
+        <category>JS</category>
         
       </item>
     
       <item>
-        <title>DATABASES – Что такое базы данных и SQL?</title>
+        <title>Что такое базы данных и SQL?</title>
         <description>&lt;p&gt;You’ll find this post in your &lt;code class=&quot;highlighter-rouge&quot;&gt;_posts&lt;/code&gt; directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run &lt;code class=&quot;highlighter-rouge&quot;&gt;jekyll serve&lt;/code&gt;, which launches a web server and auto-regenerates your site when a file is updated.&lt;/p&gt;
 
 &lt;p&gt;To add new posts, simply add a file in the &lt;code class=&quot;highlighter-rouge&quot;&gt;_posts&lt;/code&gt; directory that follows the convention &lt;code class=&quot;highlighter-rouge&quot;&gt;YYYY-MM-DD-name-of-post.ext&lt;/code&gt; and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.&lt;/p&gt;
@@ -106,16 +80,16 @@
 
 </description>
         <pubDate>Sat, 10 Nov 2018 22:18:45 +0300</pubDate>
-        <link>http://localhost:4000/test/2018/11/10/post10.html</link>
-        <guid isPermaLink="true">http://localhost:4000/test/2018/11/10/post10.html</guid>
+        <link>http://localhost:4000/databases/2018/11/10/post10.html</link>
+        <guid isPermaLink="true">http://localhost:4000/databases/2018/11/10/post10.html</guid>
         
         
-        <category>test</category>
+        <category>Databases</category>
         
       </item>
     
       <item>
-        <title>UX – Сопоставление эмпатии: первый шаг в дизайн-мышлении?</title>
+        <title>Сопоставление эмпатии: первый шаг в дизайн-мышлении?</title>
         <description>&lt;p&gt;You’ll find this post in your &lt;code class=&quot;highlighter-rouge&quot;&gt;_posts&lt;/code&gt; directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run &lt;code class=&quot;highlighter-rouge&quot;&gt;jekyll serve&lt;/code&gt;, which launches a web server and auto-regenerates your site when a file is updated.&lt;/p&gt;
 
 &lt;p&gt;To add new posts, simply add a file in the &lt;code class=&quot;highlighter-rouge&quot;&gt;_posts&lt;/code&gt; directory that follows the convention &lt;code class=&quot;highlighter-rouge&quot;&gt;YYYY-MM-DD-name-of-post.ext&lt;/code&gt; and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.&lt;/p&gt;
@@ -132,16 +106,16 @@
 
 </description>
         <pubDate>Fri, 09 Nov 2018 22:18:45 +0300</pubDate>
-        <link>http://localhost:4000/test/2018/11/09/post9.html</link>
-        <guid isPermaLink="true">http://localhost:4000/test/2018/11/09/post9.html</guid>
+        <link>http://localhost:4000/ux/2018/11/09/post9.html</link>
+        <guid isPermaLink="true">http://localhost:4000/ux/2018/11/09/post9.html</guid>
         
         
-        <category>test</category>
+        <category>UX</category>
         
       </item>
     
       <item>
-        <title>HANDLEBARS – Введение</title>
+        <title>Введение</title>
         <description>&lt;p&gt;You’ll find this post in your &lt;code class=&quot;highlighter-rouge&quot;&gt;_posts&lt;/code&gt; directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run &lt;code class=&quot;highlighter-rouge&quot;&gt;jekyll serve&lt;/code&gt;, which launches a web server and auto-regenerates your site when a file is updated.&lt;/p&gt;
 
 &lt;p&gt;To add new posts, simply add a file in the &lt;code class=&quot;highlighter-rouge&quot;&gt;_posts&lt;/code&gt; directory that follows the convention &lt;code class=&quot;highlighter-rouge&quot;&gt;YYYY-MM-DD-name-of-post.ext&lt;/code&gt; and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.&lt;/p&gt;
@@ -158,16 +132,16 @@
 
 </description>
         <pubDate>Thu, 08 Nov 2018 22:18:45 +0300</pubDate>
-        <link>http://localhost:4000/test/2018/11/08/post8.html</link>
-        <guid isPermaLink="true">http://localhost:4000/test/2018/11/08/post8.html</guid>
+        <link>http://localhost:4000/handlebars/2018/11/08/post8.html</link>
+        <guid isPermaLink="true">http://localhost:4000/handlebars/2018/11/08/post8.html</guid>
         
         
-        <category>test</category>
+        <category>Handlebars</category>
         
       </item>
     
       <item>
-        <title>NODE.JS – Собираем простого бота с Web Speech API и Node.js</title>
+        <title>Собираем простого бота с Web Speech API и Node.js</title>
         <description>&lt;p&gt;You’ll find this post in your &lt;code class=&quot;highlighter-rouge&quot;&gt;_posts&lt;/code&gt; directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run &lt;code class=&quot;highlighter-rouge&quot;&gt;jekyll serve&lt;/code&gt;, which launches a web server and auto-regenerates your site when a file is updated.&lt;/p&gt;
 
 &lt;p&gt;To add new posts, simply add a file in the &lt;code class=&quot;highlighter-rouge&quot;&gt;_posts&lt;/code&gt; directory that follows the convention &lt;code class=&quot;highlighter-rouge&quot;&gt;YYYY-MM-DD-name-of-post.ext&lt;/code&gt; and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.&lt;/p&gt;
@@ -184,16 +158,16 @@
 
 </description>
         <pubDate>Wed, 07 Nov 2018 22:18:45 +0300</pubDate>
-        <link>http://localhost:4000/test/2018/11/07/post7.html</link>
-        <guid isPermaLink="true">http://localhost:4000/test/2018/11/07/post7.html</guid>
+        <link>http://localhost:4000/nodejs/2018/11/07/post7.html</link>
+        <guid isPermaLink="true">http://localhost:4000/nodejs/2018/11/07/post7.html</guid>
         
         
-        <category>test</category>
+        <category>NodeJS</category>
         
       </item>
     
       <item>
-        <title>JavaScript — Важно ли знание VanillaJS? Само собой</title>
+        <title>Важно ли знать VanillaJS? Есесна!</title>
         <description>&lt;p&gt;You’ll find this post in your &lt;code class=&quot;highlighter-rouge&quot;&gt;_posts&lt;/code&gt; directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run &lt;code class=&quot;highlighter-rouge&quot;&gt;jekyll serve&lt;/code&gt;, which launches a web server and auto-regenerates your site when a file is updated.&lt;/p&gt;
 
 &lt;p&gt;To add new posts, simply add a file in the &lt;code class=&quot;highlighter-rouge&quot;&gt;_posts&lt;/code&gt; directory that follows the convention &lt;code class=&quot;highlighter-rouge&quot;&gt;YYYY-MM-DD-name-of-post.ext&lt;/code&gt; and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.&lt;/p&gt;
@@ -210,16 +184,16 @@
 
 </description>
         <pubDate>Tue, 06 Nov 2018 22:18:45 +0300</pubDate>
-        <link>http://localhost:4000/test/2018/11/06/post6.html</link>
-        <guid isPermaLink="true">http://localhost:4000/test/2018/11/06/post6.html</guid>
+        <link>http://localhost:4000/js/2018/11/06/post6.html</link>
+        <guid isPermaLink="true">http://localhost:4000/js/2018/11/06/post6.html</guid>
         
         
-        <category>test</category>
+        <category>JS</category>
         
       </item>
     
       <item>
-        <title>JavaScript — Игра на запоминание карточек</title>
+        <title>Игра на запоминание карточек</title>
         <description>&lt;p&gt;You’ll find this post in your &lt;code class=&quot;highlighter-rouge&quot;&gt;_posts&lt;/code&gt; directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run &lt;code class=&quot;highlighter-rouge&quot;&gt;jekyll serve&lt;/code&gt;, which launches a web server and auto-regenerates your site when a file is updated.&lt;/p&gt;
 
 &lt;p&gt;To add new posts, simply add a file in the &lt;code class=&quot;highlighter-rouge&quot;&gt;_posts&lt;/code&gt; directory that follows the convention &lt;code class=&quot;highlighter-rouge&quot;&gt;YYYY-MM-DD-name-of-post.ext&lt;/code&gt; and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.&lt;/p&gt;
@@ -236,16 +210,16 @@
 
 </description>
         <pubDate>Mon, 05 Nov 2018 22:18:45 +0300</pubDate>
-        <link>http://localhost:4000/test/2018/11/05/post5.html</link>
-        <guid isPermaLink="true">http://localhost:4000/test/2018/11/05/post5.html</guid>
+        <link>http://localhost:4000/js/2018/11/05/post5.html</link>
+        <guid isPermaLink="true">http://localhost:4000/js/2018/11/05/post5.html</guid>
         
         
-        <category>test</category>
+        <category>JS</category>
         
       </item>
     
       <item>
-        <title>NODE.JS — Разбираемся с Express.js</title>
+        <title>Разбираемся с Express.js</title>
         <description>&lt;p&gt;You’ll find this post in your &lt;code class=&quot;highlighter-rouge&quot;&gt;_posts&lt;/code&gt; directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run &lt;code class=&quot;highlighter-rouge&quot;&gt;jekyll serve&lt;/code&gt;, which launches a web server and auto-regenerates your site when a file is updated.&lt;/p&gt;
 
 &lt;p&gt;To add new posts, simply add a file in the &lt;code class=&quot;highlighter-rouge&quot;&gt;_posts&lt;/code&gt; directory that follows the convention &lt;code class=&quot;highlighter-rouge&quot;&gt;YYYY-MM-DD-name-of-post.ext&lt;/code&gt; and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.&lt;/p&gt;
@@ -262,11 +236,37 @@
 
 </description>
         <pubDate>Sun, 04 Nov 2018 22:18:45 +0300</pubDate>
-        <link>http://localhost:4000/test/2018/11/04/post4.html</link>
-        <guid isPermaLink="true">http://localhost:4000/test/2018/11/04/post4.html</guid>
+        <link>http://localhost:4000/nodejs/2018/11/04/post4.html</link>
+        <guid isPermaLink="true">http://localhost:4000/nodejs/2018/11/04/post4.html</guid>
         
         
-        <category>test</category>
+        <category>NodeJS</category>
+        
+      </item>
+    
+      <item>
+        <title>Объединение Map, Filter, и Reduce</title>
+        <description>&lt;p&gt;You’ll find this post in your &lt;code class=&quot;highlighter-rouge&quot;&gt;_posts&lt;/code&gt; directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run &lt;code class=&quot;highlighter-rouge&quot;&gt;jekyll serve&lt;/code&gt;, which launches a web server and auto-regenerates your site when a file is updated.&lt;/p&gt;
+
+&lt;p&gt;To add new posts, simply add a file in the &lt;code class=&quot;highlighter-rouge&quot;&gt;_posts&lt;/code&gt; directory that follows the convention &lt;code class=&quot;highlighter-rouge&quot;&gt;YYYY-MM-DD-name-of-post.ext&lt;/code&gt; and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.&lt;/p&gt;
+
+&lt;p&gt;Jekyll also offers powerful support for code snippets:&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+  &lt;span class=&quot;nb&quot;&gt;puts&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;Hi, &lt;/span&gt;&lt;span class=&quot;si&quot;&gt;#{&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'Tom'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;c1&quot;&gt;#=&amp;gt; prints 'Hi, Tom' to STDOUT.&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;Check out the &lt;a href=&quot;http://jekyllrb.com/docs/home&quot;&gt;Jekyll docs&lt;/a&gt; for more info on how to get the most out of Jekyll. File all bugs/feature requests at &lt;a href=&quot;https://github.com/jekyll/jekyll&quot;&gt;Jekyll’s GitHub repo&lt;/a&gt;. If you have questions, you can ask them on &lt;a href=&quot;https://talk.jekyllrb.com/&quot;&gt;Jekyll Talk&lt;/a&gt;.&lt;/p&gt;
+
+</description>
+        <pubDate>Sat, 03 Nov 2018 22:18:45 +0300</pubDate>
+        <link>http://localhost:4000/js/2018/11/03/post3.html</link>
+        <guid isPermaLink="true">http://localhost:4000/js/2018/11/03/post3.html</guid>
+        
+        
+        <category>JS</category>
         
       </item>
     

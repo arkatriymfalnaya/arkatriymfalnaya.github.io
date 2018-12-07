@@ -11,6 +11,12 @@
 
   {% include footer.html %}
 
+  <script src="{{ base.url | prepend: site.url }}/js/classie.js"></script>
+  <script src="{{ base.url | prepend: site.url }}/js/gnmenu.js"></script>
+  <script>
+    new gnMenu( document.getElementById( 'gn-menu' ) );
+  </script>
+
 </body>
 
 </html>

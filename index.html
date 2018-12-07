@@ -1,9 +1,8 @@
 ---
-layout: 404
----
-
-<!-- ---
 layout: default
+---
+<!-- ---
+layout: 404
 --- -->
 
 <!-- <ul>
@@ -12,11 +11,9 @@ layout: default
         <li><a href="{{ post.url }}">{{ post.title }}</a></li>
       {% endif %}
     {% endfor %}
-  </ul> -->
+</ul> -->
 
-
-
-  <!-- <div class="shield">
+<!-- <div class="shield">
 
   <div class="shield__pic">
     <img src="{{ site.baseurl }}/images/header__shield-pic.jpg" alt="">
@@ -26,7 +23,7 @@ layout: default
     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus, minus?</p>
   </div>
 
-</div>
+</div> -->
 
 <div class="grid-container">
 
@@ -34,19 +31,50 @@ layout: default
 
     {% for post in paginator.posts %}
 
-      {% if post.odd %}
+      {% if post.odd == 1 %}
 
-        <div class="post__item post__item_cell-4" style="background: url({{ post.pic }}) no-repeat center center;background-size:cover;">
-          <p class="post__date">{{ post.date | date: "%b %-d, %Y" }}</p>
-          <a class="post__title" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </div>
+        <a class="post__item post__item_cell-1" style="background: url({{ site.baseurl }}/{{ post.pic }}) no-repeat center center;background-size:cover;" href="{{ post.url | prepend: site.baseurl }}">
+          <p class="post__info">
+              <span class="post__title">{{ post.categories }} | {{ post.title }}</span>
+              <span class="post__date">{{ post.date | date: "%b %-d, %Y" }}</span>
+          </p>
+        </a>
+
+      {% elsif post.odd == 2 %}
+
+      <a class="post__item post__item_cell-2" style="background: url({{ site.baseurl }}/{{ post.pic }}) no-repeat center center;background-size:cover;" href="{{ post.url | prepend: site.baseurl }}">
+        <p class="post__info">
+            <span class="post__title">{{ post.categories }} | {{ post.title }}</span>
+            <span class="post__date">{{ post.date | date: "%b %-d, %Y" }}</span>
+        </p>
+      </a>
+
+      {% elsif post.odd == 3 %}
+
+      <a class="post__item post__item_cell-3" style="background: url({{ site.baseurl }}/{{ post.pic }}) no-repeat center center;background-size:cover;" href="{{ post.url | prepend: site.baseurl }}">
+        <p class="post__info">
+            <span class="post__title">{{ post.categories }} | {{ post.title }}</span>
+            <span class="post__date">{{ post.date | date: "%b %-d, %Y" }}</span>
+        </p>
+      </a>
+
+      {% elsif post.odd == 4 %}
+
+      <a class="post__item post__item_cell-4" style="background: url({{ site.baseurl }}/{{ post.pic }}) no-repeat center center;background-size:cover;" href="{{ post.url | prepend: site.baseurl }}">
+        <p class="post__info">
+            <span class="post__title">{{ post.categories }} | {{ post.title }}</span>
+            <span class="post__date">{{ post.date | date: "%b %-d, %Y" }}</span>
+        </p>
+      </a>
 
       {% else %}
 
-        <div class="post__item">
-          <p class="post__date">{{ post.date | date: "%b %-d, %Y" }}</p>
-          <a class="post__title" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </div>
+      <a class="post__item" style="background: url({{ site.baseurl }}/{{ post.pic }}) no-repeat center center;background-size:cover;" href="{{ post.url | prepend: site.baseurl }}">
+        <p class="post__info">
+            <span class="post__title">{{ post.categories }} | {{ post.title }}</span>
+            <span class="post__date">{{ post.date | date: "%b %-d, %Y" }}</span>
+        </p>
+      </a>
 
       {% endif %}
 
@@ -72,4 +100,4 @@ layout: default
     {% endif %}
   </div>
 
-</div> -->
+</div>
