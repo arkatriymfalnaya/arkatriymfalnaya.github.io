@@ -1,23 +1,75 @@
 ---
-layout: default
+layout: 404
 ---
 
-<div class="home">
+<!-- ---
+layout: default
+--- -->
 
-  <h1 class="page-heading">Posts</h1>
-
-  <ul class="post-list">
-    {% for post in site.posts %}
-      <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
-
-        <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </h2>
-      </li>
+<!-- <ul>
+    {% for post in site.categories.update %}
+      {% if post.url %}
+        <li><a href="{{ post.url }}">{{ post.title }}</a></li>
+      {% endif %}
     {% endfor %}
-  </ul>
+  </ul> -->
 
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
+
+
+  <!-- <div class="shield">
+
+  <div class="shield__pic">
+    <img src="{{ site.baseurl }}/images/header__shield-pic.jpg" alt="">
+  </div>
+
+  <div class="shield__desc">
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus, minus?</p>
+  </div>
 
 </div>
+
+<div class="grid-container">
+
+  <div class="post__grid">
+
+    {% for post in paginator.posts %}
+
+      {% if post.odd %}
+
+        <div class="post__item post__item_cell-4" style="background: url({{ post.pic }}) no-repeat center center;background-size:cover;">
+          <p class="post__date">{{ post.date | date: "%b %-d, %Y" }}</p>
+          <a class="post__title" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+        </div>
+
+      {% else %}
+
+        <div class="post__item">
+          <p class="post__date">{{ post.date | date: "%b %-d, %Y" }}</p>
+          <a class="post__title" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+        </div>
+
+      {% endif %}
+
+    {% endfor %}
+
+  </div>
+
+  <div class="pagination">
+    {% if paginator.previous_page %}
+      <a href="{{ paginator.previous_page_path }}" class="pagination__previous pagination__previous_av">
+        Назад
+      </a>
+    {% else %}
+      <span class="pagination__previous pagination__previous_unav">Назад</span>
+    {% endif %}
+      <span class="pagination__page-number ">
+        Страница: {{ paginator.page }} из {{ paginator.total_pages }}
+      </span>
+    {% if paginator.next_page %}
+      <a href="{{ paginator.next_page_path }}" class="pagination__next pagination__next_av">Вперёд</a>
+    {% else %}
+      <span class="pagination__next pagination__next_unav">Вперёд</span>
+    {% endif %}
+  </div>
+
+</div> -->
