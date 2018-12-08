@@ -1,8 +1,8 @@
 ---
-layout: 404
+layout: default
 ---
 <!-- ---
-layout: default
+layout: 404
 --- -->
 
 <!-- <ul>
@@ -25,9 +25,21 @@ layout: default
 
 </div> -->
 
-<!-- <div class="post__grid">
+<!-- <div class="wrapper typo">
+    Посты категории 
+    <div class="list">
+        <span class="placeholder">&laquo;Все&raquo;</span>
+        <ul class="list__ul">
+          <li id="web"><a href="#">&laquo;Веб&raquo;</a></li>
+          <li id="des"><a href="#">&laquo;Дизайн&raquo;</a></li>
+          <li id="life"><a href="#">&laquo;Лайфстайл&raquo;</a></li>
+        </ul>
+    </div>
+</div> -->
 
-  {% for post in paginator.posts %}
+<div class="post__grid">
+
+  {% for post in site.posts %}
 
     {% if post.line == 'full' %}
 
@@ -62,18 +74,18 @@ layout: default
 
 <div class="pagination">
   {% if paginator.previous_page %}
-    <a href="{{ paginator.previous_page_path }}" class="pagination__previous pagination__previous_av">
-      Назад
+    <a href="{{ paginator.previous_page_path }}" class="pagination__text pagination__previous pagination__previous_av">
+      Prev
     </a>
   {% else %}
-    <span class="pagination__previous pagination__previous_unav">Назад</span>
+    <span class="pagination__text pagination__previous pagination__previous_unav">Prev</span>
   {% endif %}
-    <span class="pagination__page-number ">
-      Страница: {{ paginator.page }} из {{ paginator.total_pages }}
+    <span class="pagination__text pagination__page-number ">
+      Page: {{ paginator.page }} of {{ paginator.total_pages }}
     </span>
   {% if paginator.next_page %}
-    <a href="{{ paginator.next_page_path }}" class="pagination__next pagination__next_av">Вперёд</a>
+    <a href="{{ paginator.next_page_path }}" class="pagination__text pagination__next pagination__next_av">Next</a>
   {% else %}
-    <span class="pagination__next pagination__next_unav">Вперёд</span>
+    <span class="pagination__text pagination__next pagination__next_unav">Next</span>
   {% endif %}
-</div> -->
+</div>

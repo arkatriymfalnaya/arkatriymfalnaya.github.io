@@ -16,6 +16,7 @@
         crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/foundation-sites@6.5.1/dist/js/foundation.min.js" integrity="sha256-WUKHnLrIrx8dew//IpSEmPN/NT3DGAEmIePQYIEJLLs= sha384-53StQWuVbn6figscdDC3xV00aYCPEz3srBdV/QGSXw3f19og3Tq2wTRe0vJqRTEO sha512-X9O+2f1ty1rzBJOC8AXBnuNUdyJg0m8xMKmbt9I3Vu/UOWmSg5zG+dtnje4wAZrKtkopz/PEDClHZ1LXx5IeOw=="
         crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
     <link rel="canonical" href="http://localhost:4000/blog/backend/webspeech">
     <link rel="alternate" type="application/rss+xml" title="uno blog" href="http://localhost:4000/feed.xml">
 
@@ -63,15 +64,16 @@
           <div class="gn-scroller">
             <ul class="gn-menu">
               <li>
-                <span class="gn-icon gn-icon-download">Темы</span>
+                <a href="/" class="gn-icon gn-icon-article">Переводы</a>
                 <ul class="gn-submenu">
-                  <li><a class="gn-icon gn-icon-illustrator" href="/blog/frontend">Frontend</a></li>
-                  <li><a class="gn-icon gn-icon-photoshop" href="/blog/backend">Backend</a></li>
-                  <li><a class="gn-icon gn-icon-illustrator" href="/blog/design">Design</a></li>
-                  <li><a class="gn-icon gn-icon-photoshop" href="/blog/other">Other</a></li>
+                  <li><a href="/frontend">Frontend</a></li>
+                  <li><a href="/backend">Backend</a></li>
+                  <li><a href="/design">Design</a></li>
+                  <li><a href="/other">Other</a></li>
                 </ul>
               </li>
-              <li><a class="gn-icon gn-icon-cog">Обо мне</a></li>
+              <li><a class="gn-icon gn-icon-pictures" href="/photos/">Фотографии</a></li>
+              <li><a class="gn-icon gn-icon-help" href="/about">Обо мне</a></li>
             </ul>
           </div><!-- /gn-scroller -->
         </nav>
@@ -131,7 +133,7 @@
       </div>
 
       <div class="cell">
-          <p>Переводы новостей, статей и туториалов по веб-разработке.
+          <p>Перевожу статейки.
 </p>
       </div>
     </div>
@@ -141,6 +143,7 @@
 </footer> -->
 
 
+  <script src="http://localhost:4000/js/app.js"></script>
   <script src="http://localhost:4000/js/classie.js"></script>
   <script src="http://localhost:4000/js/gnmenu.js"></script>
   <script>

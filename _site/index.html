@@ -1,13 +1,13 @@
 <!DOCTYPE html>
 <html>
 
-  <head>
+<head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <title>uno blog</title>
-    <meta name="description" content="Переводы новостей, статей и туториалов по веб-разработке.
+    <meta name="description" content="Перевожу статейки.
 ">
 
     <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700" rel="stylesheet">
@@ -17,6 +17,7 @@
         crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/foundation-sites@6.5.1/dist/js/foundation.min.js" integrity="sha256-WUKHnLrIrx8dew//IpSEmPN/NT3DGAEmIePQYIEJLLs= sha384-53StQWuVbn6figscdDC3xV00aYCPEz3srBdV/QGSXw3f19og3Tq2wTRe0vJqRTEO sha512-X9O+2f1ty1rzBJOC8AXBnuNUdyJg0m8xMKmbt9I3Vu/UOWmSg5zG+dtnje4wAZrKtkopz/PEDClHZ1LXx5IeOw=="
         crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
     <link rel="canonical" href="http://localhost:4000/">
     <link rel="alternate" type="application/rss+xml" title="uno blog" href="http://localhost:4000/feed.xml">
 
@@ -54,16 +55,319 @@
     <!-- /Yandex.Metrika counter -->
 </head>
 
-  <body>
+<body>
 
-    <p style="width:100vw;height:100vh;position: absolute;top: 0;left: 0;margin: 0;z-index: 1;display: flex;align-items: center;justify-content: center;background: url(./images/eye.gif) no-repeat center center;background-size: cover;font-size: 2rem;color: #fff;">The website is under construction</p>
+  <div class="container">
+    <ul id="gn-menu" class="gn-menu-main">
+      <li class="gn-trigger">
+        <a class="gn-icon gn-icon-menu"><span>Menu</span></a>
+        <nav class="gn-menu-wrapper">
+          <div class="gn-scroller">
+            <ul class="gn-menu">
+              <li>
+                <a href="/" class="gn-icon gn-icon-article">Переводы</a>
+                <ul class="gn-submenu">
+                  <li><a href="/frontend">Frontend</a></li>
+                  <li><a href="/backend">Backend</a></li>
+                  <li><a href="/design">Design</a></li>
+                  <li><a href="/other">Other</a></li>
+                </ul>
+              </li>
+              <li><a class="gn-icon gn-icon-pictures" href="/photos/">Фотографии</a></li>
+              <li><a class="gn-icon gn-icon-help" href="/about">Обо мне</a></li>
+            </ul>
+          </div><!-- /gn-scroller -->
+        </nav>
+      </li>
+      <li><a href="/">uno blog</a></li>
+    </ul>
+  </div><!-- /container -->
+  
+  <!-- ---
+layout: 404
+--- -->
 
-    <script src="http://localhost:4000/js/classie.js"></script>
-    <script src="http://localhost:4000/js/gnmenu.js"></script>
-    <script>
-      new gnMenu( document.getElementById( 'gn-menu' ) );
-    </script>
+<!-- <ul>
+    
+</ul> -->
 
-  </body>
+<!-- <div class="shield">
+
+  <div class="shield__pic">
+    <img src="/images/header__shield-pic.jpg" alt="">
+  </div>
+
+  <div class="shield__desc">
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus, minus?</p>
+  </div>
+
+</div> -->
+
+<!-- <div class="wrapper typo">
+    Посты категории 
+    <div class="list">
+        <span class="placeholder">&laquo;Все&raquo;</span>
+        <ul class="list__ul">
+          <li id="web"><a href="#">&laquo;Веб&raquo;</a></li>
+          <li id="des"><a href="#">&laquo;Дизайн&raquo;</a></li>
+          <li id="life"><a href="#">&laquo;Лайфстайл&raquo;</a></li>
+        </ul>
+    </div>
+</div> -->
+
+<div class="post__grid">
+
+  
+
+    
+
+    <div class="post__item post__item_cell-full">
+      <div class="post__item-container" style="background: url(/./images/posts/12.jpg) no-repeat center center;background-size:cover;">
+        <div class="post__info post__info_cell-full show-for-small hide-for-medium">
+          <a class="post__title post__title_cell-full" href="/blog/backend/sequelize">other / Let`s talk about sequelize</a>
+          <p class="post__desc">Великий Оксмокс предупреждал ее о злых запятых, диких знаках вопроса и коварных точках с запятой, но текст не дал сбить себя с толку. <a href="/blog/backend/sequelize" class="post__show-more">Читать..</a></p>
+        </div>
+      </div>
+      <div class="post__item-container show-for-medium hide-for-small">
+          <div class="post__info post__info_cell-full">
+              <a class="post__title post__title_cell-full" href="/blog/backend/sequelize">other / Let`s talk about sequelize</a>
+              <p class="post__desc">Великий Оксмокс предупреждал ее о злых запятых, диких знаках вопроса и коварных точках с запятой, но текст не дал сбить себя с толку. <a href="/blog/backend/sequelize" class="post__show-more">Читать..</a></p>
+          </div>
+      </div>
+    </div>
+
+    
+
+  
+
+    
+
+    <div class="post__item post__item_cell-full">
+      <div class="post__item-container" style="background: url(/./images/posts/11.jpg) no-repeat center center;background-size:cover;">
+        <div class="post__info post__info_cell-full show-for-small hide-for-medium">
+          <a class="post__title post__title_cell-full" href="/blog/frontend/api">frontend / Let`s talk about API</a>
+          <p class="post__desc">Великий Оксмокс предупреждал ее о злых запятых, диких знаках вопроса и коварных точках с запятой, но текст не дал сбить себя с толку. <a href="/blog/frontend/api" class="post__show-more">Читать..</a></p>
+        </div>
+      </div>
+      <div class="post__item-container show-for-medium hide-for-small">
+          <div class="post__info post__info_cell-full">
+              <a class="post__title post__title_cell-full" href="/blog/frontend/api">frontend / Let`s talk about API</a>
+              <p class="post__desc">Великий Оксмокс предупреждал ее о злых запятых, диких знаках вопроса и коварных точках с запятой, но текст не дал сбить себя с толку. <a href="/blog/frontend/api" class="post__show-more">Читать..</a></p>
+          </div>
+      </div>
+    </div>
+
+    
+
+  
+
+    
+
+      <a class="post__item post__item_cell-half" style="background: url(/./images/posts/10.jpg) no-repeat center center;background-size:cover;" href="/blog/backend/dbssql">
+        <p class="post__info post__info_cell-half">
+            <span class="post__title post__title_cell-half">backend / Let`s talk about dbs and sql</span>
+        </p>
+      </a>
+
+    
+
+  
+
+    
+
+      <a class="post__item post__item_cell-half" style="background: url(/./images/posts/9.jpg) no-repeat center center;background-size:cover;" href="/blog/desugn/empathy">
+        <p class="post__info post__info_cell-half">
+            <span class="post__title post__title_cell-half">design / Let`s talk about empathy</span>
+        </p>
+      </a>
+
+    
+
+  
+
+    
+
+    <div class="post__item post__item_cell-full">
+      <div class="post__item-container" style="background: url(/./images/posts/8.jpg) no-repeat center center;background-size:cover;">
+        <div class="post__info post__info_cell-full show-for-small hide-for-medium">
+          <a class="post__title post__title_cell-full" href="/blog/backend/handlebars">backend / Let`s talk about handlebars</a>
+          <p class="post__desc">Великий Оксмокс предупреждал ее о злых запятых, диких знаках вопроса и коварных точках с запятой, но текст не дал сбить себя с толку. <a href="/blog/backend/handlebars" class="post__show-more">Читать..</a></p>
+        </div>
+      </div>
+      <div class="post__item-container show-for-medium hide-for-small">
+          <div class="post__info post__info_cell-full">
+              <a class="post__title post__title_cell-full" href="/blog/backend/handlebars">backend / Let`s talk about handlebars</a>
+              <p class="post__desc">Великий Оксмокс предупреждал ее о злых запятых, диких знаках вопроса и коварных точках с запятой, но текст не дал сбить себя с толку. <a href="/blog/backend/handlebars" class="post__show-more">Читать..</a></p>
+          </div>
+      </div>
+    </div>
+
+    
+
+  
+
+    
+
+      <a class="post__item post__item_cell-half" style="background: url(/./images/posts/7.jpg) no-repeat center center;background-size:cover;" href="/blog/backend/webspeech">
+        <p class="post__info post__info_cell-half">
+            <span class="post__title post__title_cell-half">backend / Let`s talk about web speech API and node.js</span>
+        </p>
+      </a>
+
+    
+
+  
+
+    
+
+      <a class="post__item post__item_cell-half" style="background: url(/./images/posts/6.jpg) no-repeat center center;background-size:cover;" href="/blog/frontend/vanilla">
+        <p class="post__info post__info_cell-half">
+            <span class="post__title post__title_cell-half">frontend / Let`s talk about vanilla.js</span>
+        </p>
+      </a>
+
+    
+
+  
+
+    
+
+    <div class="post__item post__item_cell-full">
+      <div class="post__item-container" style="background: url(/./images/posts/5.jpg) no-repeat center center;background-size:cover;">
+        <div class="post__info post__info_cell-full show-for-small hide-for-medium">
+          <a class="post__title post__title_cell-full" href="/blog/frontend/games">frontend / Let`s talk about games</a>
+          <p class="post__desc">Великий Оксмокс предупреждал ее о злых запятых, диких знаках вопроса и коварных точках с запятой, но текст не дал сбить себя с толку. <a href="/blog/frontend/games" class="post__show-more">Читать..</a></p>
+        </div>
+      </div>
+      <div class="post__item-container show-for-medium hide-for-small">
+          <div class="post__info post__info_cell-full">
+              <a class="post__title post__title_cell-full" href="/blog/frontend/games">frontend / Let`s talk about games</a>
+              <p class="post__desc">Великий Оксмокс предупреждал ее о злых запятых, диких знаках вопроса и коварных точках с запятой, но текст не дал сбить себя с толку. <a href="/blog/frontend/games" class="post__show-more">Читать..</a></p>
+          </div>
+      </div>
+    </div>
+
+    
+
+  
+
+    
+
+    <div class="post__item post__item_cell-full">
+      <div class="post__item-container" style="background: url(/./images/posts/4.jpg) no-repeat center center;background-size:cover;">
+        <div class="post__info post__info_cell-full show-for-small hide-for-medium">
+          <a class="post__title post__title_cell-full" href="/blog/backend/express">backend / Let`s talk about express.js</a>
+          <p class="post__desc">Великий Оксмокс предупреждал ее о злых запятых, диких знаках вопроса и коварных точках с запятой, но текст не дал сбить себя с толку. <a href="/blog/backend/express" class="post__show-more">Читать..</a></p>
+        </div>
+      </div>
+      <div class="post__item-container show-for-medium hide-for-small">
+          <div class="post__info post__info_cell-full">
+              <a class="post__title post__title_cell-full" href="/blog/backend/express">backend / Let`s talk about express.js</a>
+              <p class="post__desc">Великий Оксмокс предупреждал ее о злых запятых, диких знаках вопроса и коварных точках с запятой, но текст не дал сбить себя с толку. <a href="/blog/backend/express" class="post__show-more">Читать..</a></p>
+          </div>
+      </div>
+    </div>
+
+    
+
+  
+
+    
+
+      <a class="post__item post__item_cell-half" style="background: url(/./images/posts/3.jpg) no-repeat center center;background-size:cover;" href="/blog/frontend/map">
+        <p class="post__info post__info_cell-half">
+            <span class="post__title post__title_cell-half">frontend / Let`s talk about map, filter and reduce</span>
+        </p>
+      </a>
+
+    
+
+  
+
+    
+
+      <a class="post__item post__item_cell-half" style="background: url(/./images/posts/2.jpg) no-repeat center center;background-size:cover;" href="/blog/frontend/foreach">
+        <p class="post__info post__info_cell-half">
+            <span class="post__title post__title_cell-half">frontend / Let`s talk about forEach and forIn</span>
+        </p>
+      </a>
+
+    
+
+  
+
+    
+
+    <div class="post__item post__item_cell-full">
+      <div class="post__item-container" style="background: url(/./images/posts/1.jpg) no-repeat center center;background-size:cover;">
+        <div class="post__info post__info_cell-full show-for-small hide-for-medium">
+          <a class="post__title post__title_cell-full" href="/blog/frontend/jesus">frontend / Let`s talk about Jesus</a>
+          <p class="post__desc">Великий Оксмокс предупреждал ее о злых запятых, диких знаках вопроса и коварных точках с запятой, но текст не дал сбить себя с толку. <a href="/blog/frontend/jesus" class="post__show-more">Читать..</a></p>
+        </div>
+      </div>
+      <div class="post__item-container show-for-medium hide-for-small">
+          <div class="post__info post__info_cell-full">
+              <a class="post__title post__title_cell-full" href="/blog/frontend/jesus">frontend / Let`s talk about Jesus</a>
+              <p class="post__desc">Великий Оксмокс предупреждал ее о злых запятых, диких знаках вопроса и коварных точках с запятой, но текст не дал сбить себя с толку. <a href="/blog/frontend/jesus" class="post__show-more">Читать..</a></p>
+          </div>
+      </div>
+    </div>
+
+    
+
+  
+
+</div>
+
+<div class="pagination">
+  
+    <span class="pagination__text pagination__previous pagination__previous_unav">Prev</span>
+  
+    <span class="pagination__text pagination__page-number ">
+      Page: 1 of 1
+    </span>
+  
+    <span class="pagination__text pagination__next pagination__next_unav">Next</span>
+  
+</div>
+
+  <!-- <footer class="footer">
+
+  <div class="grid-container">
+
+    <div class="grid-x align-justify small-up-1 medium-up-3">
+      <div class="cell">
+        <div class="footer__contacts">
+          <a href="mailto:rakovskiya@yandex.ru">rakovskiya@yandex.ru</a>
+        </div>
+      </div>
+
+      <div class="cell">
+        <ul class="footer__social">
+          
+
+          
+        </ul>
+      </div>
+
+      <div class="cell">
+          <p>Перевожу статейки.
+</p>
+      </div>
+    </div>
+
+  </div>
+
+</footer> -->
+
+
+  <script src="http://localhost:4000/js/app.js"></script>
+  <script src="http://localhost:4000/js/classie.js"></script>
+  <script src="http://localhost:4000/js/gnmenu.js"></script>
+  <script>
+    new gnMenu( document.getElementById( 'gn-menu' ) );
+  </script>
+
+</body>
 
 </html>

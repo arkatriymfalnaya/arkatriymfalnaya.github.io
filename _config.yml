@@ -9,14 +9,14 @@
 title: uno blog
 email: rakovskiya@yandex.ru
 description: > # this means to ignore newlines until "baseurl:"
-  Переводы новостей, статей и туториалов по веб-разработке.
+  Перевожу статейки.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://uknowwhat.github.io/" # the base hostname & protocol for your site
 
 permalink: /:categories/:title/
 
 plugins: [jekyll-paginate]
-paginate: 6
+paginate: 12
 
 # Build settings
 markdown: kramdown
