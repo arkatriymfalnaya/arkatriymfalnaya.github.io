@@ -6,8 +6,8 @@
 </description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sat, 08 Dec 2018 02:31:41 +0300</pubDate>
-    <lastBuildDate>Sat, 08 Dec 2018 02:31:41 +0300</lastBuildDate>
+    <pubDate>Sat, 08 Dec 2018 03:30:40 +0300</pubDate>
+    <lastBuildDate>Sat, 08 Dec 2018 03:30:40 +0300</lastBuildDate>
     <generator>Jekyll v3.8.5</generator>
     
       <item>
@@ -28,11 +28,11 @@
 
 </description>
         <pubDate>Mon, 12 Nov 2018 22:18:45 +0300</pubDate>
-        <link>http://localhost:4000/nodejs/2018/11/12/post12.html</link>
-        <guid isPermaLink="true">http://localhost:4000/nodejs/2018/11/12/post12.html</guid>
+        <link>http://localhost:4000/blog/backend/sequelize</link>
+        <guid isPermaLink="true">http://localhost:4000/blog/backend/sequelize</guid>
         
         
-        <category>NodeJS</category>
+        <category>backend</category>
         
       </item>
     
@@ -54,11 +54,11 @@
 
 </description>
         <pubDate>Sun, 11 Nov 2018 22:18:45 +0300</pubDate>
-        <link>http://localhost:4000/js/2018/11/11/post11.html</link>
-        <guid isPermaLink="true">http://localhost:4000/js/2018/11/11/post11.html</guid>
+        <link>http://localhost:4000/blog/frontend/api</link>
+        <guid isPermaLink="true">http://localhost:4000/blog/frontend/api</guid>
         
         
-        <category>JS</category>
+        <category>frontend</category>
         
       </item>
     
@@ -80,11 +80,11 @@
 
 </description>
         <pubDate>Sat, 10 Nov 2018 22:18:45 +0300</pubDate>
-        <link>http://localhost:4000/databases/2018/11/10/post10.html</link>
-        <guid isPermaLink="true">http://localhost:4000/databases/2018/11/10/post10.html</guid>
+        <link>http://localhost:4000/blog/backend/dbssql</link>
+        <guid isPermaLink="true">http://localhost:4000/blog/backend/dbssql</guid>
         
         
-        <category>Databases</category>
+        <category>backend</category>
         
       </item>
     
@@ -106,11 +106,11 @@
 
 </description>
         <pubDate>Fri, 09 Nov 2018 22:18:45 +0300</pubDate>
-        <link>http://localhost:4000/ux/2018/11/09/post9.html</link>
-        <guid isPermaLink="true">http://localhost:4000/ux/2018/11/09/post9.html</guid>
+        <link>http://localhost:4000/blog/desugn/empathy</link>
+        <guid isPermaLink="true">http://localhost:4000/blog/desugn/empathy</guid>
         
         
-        <category>UX</category>
+        <category>design</category>
         
       </item>
     
@@ -132,11 +132,11 @@
 
 </description>
         <pubDate>Thu, 08 Nov 2018 22:18:45 +0300</pubDate>
-        <link>http://localhost:4000/other/2018/11/08/post8.html</link>
-        <guid isPermaLink="true">http://localhost:4000/other/2018/11/08/post8.html</guid>
+        <link>http://localhost:4000/blog/backend/handlebars</link>
+        <guid isPermaLink="true">http://localhost:4000/blog/backend/handlebars</guid>
         
         
-        <category>Other</category>
+        <category>backend</category>
         
       </item>
     
@@ -158,11 +158,11 @@
 
 </description>
         <pubDate>Wed, 07 Nov 2018 22:18:45 +0300</pubDate>
-        <link>http://localhost:4000/nodejs/2018/11/07/post7.html</link>
-        <guid isPermaLink="true">http://localhost:4000/nodejs/2018/11/07/post7.html</guid>
+        <link>http://localhost:4000/blog/backend/webspeech</link>
+        <guid isPermaLink="true">http://localhost:4000/blog/backend/webspeech</guid>
         
         
-        <category>NodeJS</category>
+        <category>backend</category>
         
       </item>
     
@@ -184,11 +184,11 @@
 
 </description>
         <pubDate>Tue, 06 Nov 2018 22:18:45 +0300</pubDate>
-        <link>http://localhost:4000/js/2018/11/06/post6.html</link>
-        <guid isPermaLink="true">http://localhost:4000/js/2018/11/06/post6.html</guid>
+        <link>http://localhost:4000/blog/frontend/vanilla</link>
+        <guid isPermaLink="true">http://localhost:4000/blog/frontend/vanilla</guid>
         
         
-        <category>JS</category>
+        <category>frontend</category>
         
       </item>
     
@@ -210,11 +210,11 @@
 
 </description>
         <pubDate>Mon, 05 Nov 2018 22:18:45 +0300</pubDate>
-        <link>http://localhost:4000/js/2018/11/05/post5.html</link>
-        <guid isPermaLink="true">http://localhost:4000/js/2018/11/05/post5.html</guid>
+        <link>http://localhost:4000/blog/frontend/games</link>
+        <guid isPermaLink="true">http://localhost:4000/blog/frontend/games</guid>
         
         
-        <category>JS</category>
+        <category>frontend</category>
         
       </item>
     
@@ -236,16 +236,16 @@
 
 </description>
         <pubDate>Sun, 04 Nov 2018 22:18:45 +0300</pubDate>
-        <link>http://localhost:4000/nodejs/2018/11/04/post4.html</link>
-        <guid isPermaLink="true">http://localhost:4000/nodejs/2018/11/04/post4.html</guid>
+        <link>http://localhost:4000/blog/backend/express</link>
+        <guid isPermaLink="true">http://localhost:4000/blog/backend/express</guid>
         
         
-        <category>NodeJS</category>
+        <category>backend</category>
         
       </item>
     
       <item>
-        <title>Let`s talk about Jesus map, filter and reduce</title>
+        <title>Let`s talk about map, filter and reduce</title>
         <description>&lt;p&gt;You’ll find this post in your &lt;code class=&quot;highlighter-rouge&quot;&gt;_posts&lt;/code&gt; directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run &lt;code class=&quot;highlighter-rouge&quot;&gt;jekyll serve&lt;/code&gt;, which launches a web server and auto-regenerates your site when a file is updated.&lt;/p&gt;
 
 &lt;p&gt;To add new posts, simply add a file in the &lt;code class=&quot;highlighter-rouge&quot;&gt;_posts&lt;/code&gt; directory that follows the convention &lt;code class=&quot;highlighter-rouge&quot;&gt;YYYY-MM-DD-name-of-post.ext&lt;/code&gt; and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.&lt;/p&gt;
@@ -262,11 +262,11 @@
 
 </description>
         <pubDate>Sat, 03 Nov 2018 22:18:45 +0300</pubDate>
-        <link>http://localhost:4000/js/2018/11/03/post3.html</link>
-        <guid isPermaLink="true">http://localhost:4000/js/2018/11/03/post3.html</guid>
+        <link>http://localhost:4000/blog/frontend/map</link>
+        <guid isPermaLink="true">http://localhost:4000/blog/frontend/map</guid>
         
         
-        <category>JS</category>
+        <category>frontend</category>
         
       </item>
     

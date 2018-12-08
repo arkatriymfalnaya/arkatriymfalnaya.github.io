@@ -12,8 +12,8 @@ description: > # this means to ignore newlines until "baseurl:"
   Переводы новостей, статей и туториалов по веб-разработке.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://uknowwhat.github.io/" # the base hostname & protocol for your site
-twitter_username: jekyllrb
-github_username:  jekyll
+
+permalink: /:categories/:title/
 
 plugins: [jekyll-paginate]
 paginate: 6

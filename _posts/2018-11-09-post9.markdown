@@ -2,7 +2,8 @@
 layout: post
 title:  "Let`s talk about empathy"
 date:   2018-11-09 22:18:45 +0300
-categories: UX
+categories: design
+permalink: "/blog/desugn/empathy"
 desc: Великий Оксмокс предупреждал ее о злых запятых, диких знаках вопроса и коварных точках с запятой, но текст не дал сбить себя с толку.
 pic: ./images/posts/9.jpg
 line: half

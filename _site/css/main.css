@@ -168,21 +168,21 @@ pre {
   .post__title_cell-half {
     font-size: 2.2rem; }
   .post__title_cell-full {
-    font-size: 3rem;
+    font-size: 2.6rem;
     margin: 1rem; }
   .post__title_detail {
     color: #333; }
   .post__title:hover {
     color: #333; }
 .post__desc {
-  font-size: 1.4rem;
+  font-size: 1.2rem;
   color: #fff; }
 .post__show-more {
-  font-size: 1.4rem;
+  font-size: 1.2rem;
   color: #fff;
   text-decoration: underline; }
   .post__show-more:hover {
-    color: #fd553a; }
+    color: #333; }
 
 .pagination {
   width: 100%;
@@ -212,7 +212,31 @@ pre {
 @media screen and (max-width: 960px) {
   .post__info {
     padding: 1rem; }
+    .post__info_cell-full {
+      width: auto; }
+  .post__item-container {
+    width: 100%; }
   .post__title {
+    font-size: 1.2rem; }
+  .post__date {
+    font-size: 0.7rem; } }
+@media screen and (max-width: 639px) {
+  .post__info {
+    padding: 8px; }
+    .post__info_cell-full {
+      left: 0;
+      width: 90%; }
+  .post__title {
+    font-size: 1rem; }
+    .post__title_cell-full {
+      font-size: 1.4rem;
+      line-height: normal; }
+    .post__title_cell-half {
+      font-size: 1.2rem;
+      line-height: normal; }
+  .post__desc {
+    font-size: 1rem; }
+  .post__show-more {
     font-size: 1rem; }
   .post__date {
     font-size: 0.7rem; } }
@@ -226,14 +250,7 @@ pre {
       width: 100%;
       padding: 10px;
       font-size: 1rem;
-      text-align: center; }
-
-  .post__info {
-    padding: 8px; }
-  .post__title {
-    font-size: 1rem; }
-  .post__date {
-    font-size: 0.7rem; } }
+      text-align: center; } }
 /*! normalize.css v3.0.1 | MIT License | git.io/normalize */
 /**
  * 1. Set default font family to sans-serif.

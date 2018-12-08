@@ -2,7 +2,8 @@
 layout: post
 title:  "Let`s talk about web speech API and node.js"
 date:   2018-11-07 22:18:45 +0300
-categories: NodeJS
+categories: backend
+permalink: "/blog/backend/webspeech"
 desc: Великий Оксмокс предупреждал ее о злых запятых, диких знаках вопроса и коварных точках с запятой, но текст не дал сбить себя с толку.
 pic: ./images/posts/7.jpg
 line: half

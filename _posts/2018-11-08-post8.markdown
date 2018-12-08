@@ -2,7 +2,8 @@
 layout: post
 title:  "Let`s talk about handlebars"
 date:   2018-11-08 22:18:45 +0300
-categories: Other
+categories: backend
+permalink: "/blog/backend/handlebars"
 desc: Великий Оксмокс предупреждал ее о злых запятых, диких знаках вопроса и коварных точках с запятой, но текст не дал сбить себя с толку.
 pic: ./images/posts/8.jpg
 line: full

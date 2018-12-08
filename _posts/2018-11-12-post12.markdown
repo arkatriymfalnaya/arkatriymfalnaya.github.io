@@ -2,7 +2,8 @@
 layout: post
 title:  "Let`s talk about sequelize"
 date:   2018-11-12 22:18:45 +0300
-categories: NodeJS
+categories: backend
+permalink: "/blog/backend/sequelize"
 desc: Великий Оксмокс предупреждал ее о злых запятых, диких знаках вопроса и коварных точках с запятой, но текст не дал сбить себя с толку.
 pic: ./images/posts/12.jpg
 line: full

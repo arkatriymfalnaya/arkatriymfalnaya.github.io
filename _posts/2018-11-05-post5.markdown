@@ -2,7 +2,8 @@
 layout: post
 title:  "Let`s talk about games"
 date:   2018-11-05 22:18:45 +0300
-categories: JS
+categories: frontend
+permalink: "/blog/frontend/games"
 desc: Великий Оксмокс предупреждал ее о злых запятых, диких знаках вопроса и коварных точках с запятой, но текст не дал сбить себя с толку.
 pic: ./images/posts/5.jpg
 line: full

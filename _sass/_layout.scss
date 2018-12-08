@@ -108,7 +108,7 @@
             font-size: 2.2rem;
         }
         &_cell-full{
-            font-size: 3rem;
+            font-size: 2.6rem;
             margin: 1rem;
         }
         &_detail{
@@ -119,22 +119,22 @@
         }
     }
     &__desc{
-        font-size: 1.4rem;
+        font-size: 1.2rem;
         color: #fff;
     }
     &__show-more{
-        font-size: 1.4rem;
+        font-size: 1.2rem;
         color: #fff;
         text-decoration: underline;
         &:hover{
-            color: rgb(253,85,58);
-        }
+            color: #333;
+        }  
     }
     &__header{}
     &__content{}
 }
 
-.pagination{
+.pagination{ 
     width: 100%;
     display: flex;
     align-items: center;
@@ -177,8 +177,53 @@
     .post{
         &__info{
             padding: 1rem;
+            &_cell-full{
+                width: auto;
+            }
+        }
+        &__item{
+            &-container{
+                width: 100%;
+            }
         }
         &__title{
+            font-size: 1.2rem;
+        }
+        &__date{
+            font-size: 0.7rem;
+        }
+    }
+}
+
+@media screen and (max-width:639px){
+    .post{
+        &__grid{
+        }
+        &__info{
+            padding: 8px;
+            &_cell-full{
+                left: 0;
+                width: 90%;
+            }
+        }
+        &__item{
+            
+        }
+        &__title{
+            font-size: 1rem;
+            &_cell-full{
+                font-size: 1.4rem;
+                line-height: normal;
+            }
+            &_cell-half{
+                font-size: 1.2rem;
+                line-height: normal;
+            }
+        }
+        &__desc{
+            font-size: 1rem;
+        }
+        &__show-more{
             font-size: 1rem;
         }
         &__date{
@@ -201,20 +246,5 @@
             text-align: center;
         }
     }
-    .post{
-        &__grid{
-        }
-        &__info{
-            padding: 8px;
-        }
-        &__item{
-
-        }
-        &__title{
-            font-size: 1rem;
-        }
-        &__date{
-            font-size: 0.7rem;
-        }
-    }
+    
 }

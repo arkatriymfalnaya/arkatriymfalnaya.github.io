@@ -2,7 +2,8 @@
 layout: post
 title:  "Let`s talk about API"
 date:   2018-11-11 22:18:45 +0300
-categories: JS
+categories: frontend
+permalink: "/blog/frontend/api"
 desc: Великий Оксмокс предупреждал ее о злых запятых, диких знаках вопроса и коварных точках с запятой, но текст не дал сбить себя с толку.
 pic: ./images/posts/11.jpg
 line: full
