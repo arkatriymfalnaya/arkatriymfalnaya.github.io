@@ -16,7 +16,8 @@
         crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/foundation-sites@6.5.1/dist/js/foundation.min.js" integrity="sha256-WUKHnLrIrx8dew//IpSEmPN/NT3DGAEmIePQYIEJLLs= sha384-53StQWuVbn6figscdDC3xV00aYCPEz3srBdV/QGSXw3f19og3Tq2wTRe0vJqRTEO sha512-X9O+2f1ty1rzBJOC8AXBnuNUdyJg0m8xMKmbt9I3Vu/UOWmSg5zG+dtnje4wAZrKtkopz/PEDClHZ1LXx5IeOw=="
         crossorigin="anonymous"></script>
-    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+        crossorigin="anonymous"></script>
     <link rel="canonical" href="http://localhost:4000/blog/backend/dbssql">
     <link rel="alternate" type="application/rss+xml" title="uno blog" href="http://localhost:4000/feed.xml">
 
@@ -84,14 +85,15 @@
   
   <div class="grid-container">
   
-  <article class="post__article" itemscope itemtype="http://schema.org/BlogPosting">
+  <article class="article" itemscope itemtype="http://schema.org/BlogPosting">
 
-    <header class="post__header">
-      <h1 class="post__title post__title_detail" itemprop="name headline">Let`s talk about dbs and sql</h1>
-      <p class="post__date post__date_detail"><time datetime="2018-11-10T22:18:45+03:00" itemprop="datePublished">Nov 10, 2018</time></p>
+    <header class="article__header">
+      <img class="article__pic" src="/./images/posts/10.jpg" alt="Let`s talk about dbs and sql">
+      <h1 class="article__title" itemprop="name headline">Let`s talk about dbs and sql</h1>
+      <p class="article__date"><time datetime="2018-11-10T22:18:45+03:00" itemprop="datePublished">Nov 10, 2018</time></p>
     </header>
 
-    <div class="post__content" itemprop="articleBody">
+    <div class="article__content" itemprop="articleBody">
       <p>You’ll find this post in your <code class="highlighter-rouge">_posts</code> directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run <code class="highlighter-rouge">jekyll serve</code>, which launches a web server and auto-regenerates your site when a file is updated.</p>
 
 <p>To add new posts, simply add a file in the <code class="highlighter-rouge">_posts</code> directory that follows the convention <code class="highlighter-rouge">YYYY-MM-DD-name-of-post.ext</code> and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.</p>
@@ -111,6 +113,12 @@
 
   </article>
   
+</div>
+
+<div id="galleryModal" class="gallery-modal">
+  <span class="close">&times;</span>
+  <img class="modal-content" id="img01">
+  <div id="caption"></div>
 </div>
 
   <!-- <footer class="footer">

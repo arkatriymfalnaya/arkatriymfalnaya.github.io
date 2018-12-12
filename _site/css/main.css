@@ -15,8 +15,8 @@ body {
   font-feature-settings: "kern" 1;
   font-kerning: normal;
   margin: 0 !important;
-  background: url(../images/bg.svg) no-repeat bottom !important;
-  background-size: 100% auto !important;
+  background: url(../images/tree.png) no-repeat right !important;
+  background-size: auto !important;
   background-attachment: fixed !important; }
 
 body * {
@@ -87,6 +87,54 @@ pre {
   src: local("Norwester"), local("Norwester-Regular"), url("../fonts/norwester/norwester.woff2") format("woff2"), url("../fonts/norwester/norwester.woff") format("woff"), url("../fonts/norwester/norwester.ttf") format("truetype");
   font-weight: 400;
   font-style: normal; }
+.article {
+  margin: 60px 0;
+  padding: 1rem;
+  background: rgba(255, 255, 255, 0.9); }
+  .article__pic {
+    width: 80%;
+    height: auto;
+    margin: 1rem auto;
+    display: block; }
+  .article__title {
+    line-height: 50px;
+    font-family: 'Norwester';
+    color: #333; }
+  .article__date {
+    font-size: 1rem;
+    font-family: 'Norwester';
+    color: #333; }
+
+.highlighter-rouge {
+  border: 1px solid rgba(253, 85, 58, 0.9);
+  font-family: Consolas,"Liberation Mono",Courier,monospace;
+  font-weight: 500;
+  color: #fff;
+  border-radius: 4px;
+  background-color: rgba(253, 85, 58, 0.9) !important; }
+
+pre {
+  padding: 1rem !important;
+  margin: .5em 0 !important;
+  overflow: auto !important;
+  background: #f5f2f0;
+  color: #000;
+  text-shadow: 0 1px #fff;
+  text-align: left;
+  white-space: pre;
+  word-spacing: normal;
+  word-break: normal;
+  word-wrap: normal;
+  line-height: 1.5;
+  -moz-tab-size: 4;
+  tab-size: 4 !important;
+  -webkit-hyphens: none;
+  -ms-hyphens: none;
+  hyphens: none; }
+
+code {
+  background-color: transparent !important; }
+
 .shield {
   width: 100%;
   height: 500px;
@@ -213,8 +261,6 @@ select {
     width: 50%;
     min-height: 240px;
     flex: auto; }
-.post__article {
-  margin: 60px 0; }
 .post__info {
   margin: 0;
   padding: 1rem 2rem;
@@ -239,8 +285,6 @@ select {
   font-size: 1rem;
   color: #fff;
   font-family: 'Norwester'; }
-  .post__date_detail {
-    color: #333; }
 .post__title {
   line-height: 50px;
   color: #fff;
@@ -250,8 +294,6 @@ select {
   .post__title_cell-full {
     font-size: 2.6rem;
     margin: 1rem; }
-  .post__title_detail {
-    color: #333; }
   .post__title:hover {
     color: #333; }
 .post__desc {
@@ -264,6 +306,61 @@ select {
   .post__show-more:hover {
     color: #333; }
 
+.gallery-modal {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  padding-top: 100px;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: calc(100% - 60px);
+  overflow: auto;
+  background-color: black;
+  background-color: rgba(0, 0, 0, 0.9); }
+
+.modal-content {
+  margin: auto;
+  display: block;
+  width: 100%; }
+
+.gallery-images {
+  width: auto;
+  height: auto;
+  margin: 1rem auto;
+  display: block;
+  max-width: 100%;
+  border-radius: 9px;
+  cursor: pointer; }
+
+.modal-content,
+#caption {
+  animation-name: zoom;
+  animation-duration: 0.6s; }
+
+@keyframes zoom {
+  from {
+    transform: scale(0); }
+  to {
+    transform: scale(1); } }
+.close {
+  position: absolute;
+  top: 15px;
+  right: 35px;
+  color: #f1f1f1;
+  font-size: 40px;
+  font-weight: bold;
+  transition: 0.3s; }
+
+.close:hover,
+.close:focus {
+  color: #bbb;
+  text-decoration: none;
+  cursor: pointer; }
+
+@media only screen and (max-width: 700px) {
+  .modal-content {
+    width: 100%; } }
 .pagination {
   width: 100%;
   display: flex;
@@ -296,6 +393,9 @@ select {
     margin-left: 0; }
 
 @media screen and (max-width: 960px) {
+  .grid-container {
+    padding: 0 !important; }
+
   .post__info {
     padding: 1rem; }
     .post__info_cell-full {
@@ -336,7 +436,10 @@ select {
       width: 100%;
       padding: 10px;
       font-size: 1rem;
-      text-align: center; } }
+      text-align: center; }
+
+  .article__pic {
+    width: 100%; } }
 /*! normalize.css v3.0.1 | MIT License | git.io/normalize */
 /**
  * 1. Set default font family to sans-serif.
@@ -711,7 +814,7 @@ th {
 .gn-menu-main ul {
   margin: 0;
   padding: 0;
-  background: white;
+  background: rgba(255, 255, 255, 0.9);
   color: #5f6f81;
   list-style: none;
   text-transform: none;
