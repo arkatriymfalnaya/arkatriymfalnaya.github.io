@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/build/static/css/main.d08112e8.chunk.css",
+    "main.css": "/build/static/css/main.352de052.chunk.css",
     "main.js": "/build/static/js/main.df5de624.chunk.js",
     "main.js.map": "/build/static/js/main.df5de624.chunk.js.map",
     "runtime-main.js": "/build/static/js/runtime-main.e3c18bfb.js",
@@ -8,16 +8,16 @@
     "static/js/2.7a81cf9e.chunk.js": "/build/static/js/2.7a81cf9e.chunk.js",
     "static/js/2.7a81cf9e.chunk.js.map": "/build/static/js/2.7a81cf9e.chunk.js.map",
     "index.html": "/build/index.html",
-    "precache-manifest.ed898b77191c8fa52c682c53c239914e.js": "/build/precache-manifest.ed898b77191c8fa52c682c53c239914e.js",
+    "precache-manifest.07d153c05d4a95eb25f29961c835cc0a.js": "/build/precache-manifest.07d153c05d4a95eb25f29961c835cc0a.js",
     "service-worker.js": "/build/service-worker.js",
-    "static/css/main.d08112e8.chunk.css.map": "/build/static/css/main.d08112e8.chunk.css.map",
+    "static/css/main.352de052.chunk.css.map": "/build/static/css/main.352de052.chunk.css.map",
     "static/js/2.7a81cf9e.chunk.js.LICENSE.txt": "/build/static/js/2.7a81cf9e.chunk.js.LICENSE.txt",
     "static/media/index.css": "/build/static/media/icon_heart_hover.876106c6.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.e3c18bfb.js",
     "static/js/2.7a81cf9e.chunk.js",
-    "static/css/main.d08112e8.chunk.css",
+    "static/css/main.352de052.chunk.css",
     "static/js/main.df5de624.chunk.js"
   ]
 }
