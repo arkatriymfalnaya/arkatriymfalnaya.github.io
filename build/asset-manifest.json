@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/inmyroomtest/static/css/main.1fd4e81f.chunk.css",
-    "main.js": "/inmyroomtest/static/js/main.df5de624.chunk.js",
-    "main.js.map": "/inmyroomtest/static/js/main.df5de624.chunk.js.map",
-    "runtime-main.js": "/inmyroomtest/static/js/runtime-main.97581f34.js",
-    "runtime-main.js.map": "/inmyroomtest/static/js/runtime-main.97581f34.js.map",
-    "static/js/2.7a81cf9e.chunk.js": "/inmyroomtest/static/js/2.7a81cf9e.chunk.js",
-    "static/js/2.7a81cf9e.chunk.js.map": "/inmyroomtest/static/js/2.7a81cf9e.chunk.js.map",
-    "index.html": "/inmyroomtest/index.html",
-    "precache-manifest.72c6726555bb82cf1722b34c32cf113a.js": "/inmyroomtest/precache-manifest.72c6726555bb82cf1722b34c32cf113a.js",
-    "service-worker.js": "/inmyroomtest/service-worker.js",
-    "static/css/main.1fd4e81f.chunk.css.map": "/inmyroomtest/static/css/main.1fd4e81f.chunk.css.map",
-    "static/js/2.7a81cf9e.chunk.js.LICENSE.txt": "/inmyroomtest/static/js/2.7a81cf9e.chunk.js.LICENSE.txt",
-    "static/media/index.css": "/inmyroomtest/static/media/icon_heart_hover.876106c6.svg"
+    "main.css": "/uknowwhat.github.io/static/css/main.148faafc.chunk.css",
+    "main.js": "/uknowwhat.github.io/static/js/main.df5de624.chunk.js",
+    "main.js.map": "/uknowwhat.github.io/static/js/main.df5de624.chunk.js.map",
+    "runtime-main.js": "/uknowwhat.github.io/static/js/runtime-main.3807cc2a.js",
+    "runtime-main.js.map": "/uknowwhat.github.io/static/js/runtime-main.3807cc2a.js.map",
+    "static/js/2.7a81cf9e.chunk.js": "/uknowwhat.github.io/static/js/2.7a81cf9e.chunk.js",
+    "static/js/2.7a81cf9e.chunk.js.map": "/uknowwhat.github.io/static/js/2.7a81cf9e.chunk.js.map",
+    "index.html": "/uknowwhat.github.io/index.html",
+    "precache-manifest.6245e76b44c681a021598363d6ae177a.js": "/uknowwhat.github.io/precache-manifest.6245e76b44c681a021598363d6ae177a.js",
+    "service-worker.js": "/uknowwhat.github.io/service-worker.js",
+    "static/css/main.148faafc.chunk.css.map": "/uknowwhat.github.io/static/css/main.148faafc.chunk.css.map",
+    "static/js/2.7a81cf9e.chunk.js.LICENSE.txt": "/uknowwhat.github.io/static/js/2.7a81cf9e.chunk.js.LICENSE.txt",
+    "static/media/index.css": "/uknowwhat.github.io/static/media/icon_heart_hover.876106c6.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.97581f34.js",
+    "static/js/runtime-main.3807cc2a.js",
     "static/js/2.7a81cf9e.chunk.js",
-    "static/css/main.1fd4e81f.chunk.css",
+    "static/css/main.148faafc.chunk.css",
     "static/js/main.df5de624.chunk.js"
   ]
 }
