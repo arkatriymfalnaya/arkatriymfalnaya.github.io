@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/uknowwhat.github.io/static/css/main.148faafc.chunk.css",
-    "main.js": "/uknowwhat.github.io/static/js/main.df5de624.chunk.js",
-    "main.js.map": "/uknowwhat.github.io/static/js/main.df5de624.chunk.js.map",
-    "runtime-main.js": "/uknowwhat.github.io/static/js/runtime-main.3807cc2a.js",
-    "runtime-main.js.map": "/uknowwhat.github.io/static/js/runtime-main.3807cc2a.js.map",
-    "static/js/2.7a81cf9e.chunk.js": "/uknowwhat.github.io/static/js/2.7a81cf9e.chunk.js",
-    "static/js/2.7a81cf9e.chunk.js.map": "/uknowwhat.github.io/static/js/2.7a81cf9e.chunk.js.map",
-    "index.html": "/uknowwhat.github.io/index.html",
-    "precache-manifest.6245e76b44c681a021598363d6ae177a.js": "/uknowwhat.github.io/precache-manifest.6245e76b44c681a021598363d6ae177a.js",
-    "service-worker.js": "/uknowwhat.github.io/service-worker.js",
-    "static/css/main.148faafc.chunk.css.map": "/uknowwhat.github.io/static/css/main.148faafc.chunk.css.map",
-    "static/js/2.7a81cf9e.chunk.js.LICENSE.txt": "/uknowwhat.github.io/static/js/2.7a81cf9e.chunk.js.LICENSE.txt",
-    "static/media/index.css": "/uknowwhat.github.io/static/media/icon_heart_hover.876106c6.svg"
+    "main.css": "/build/static/css/main.d08112e8.chunk.css",
+    "main.js": "/build/static/js/main.df5de624.chunk.js",
+    "main.js.map": "/build/static/js/main.df5de624.chunk.js.map",
+    "runtime-main.js": "/build/static/js/runtime-main.e3c18bfb.js",
+    "runtime-main.js.map": "/build/static/js/runtime-main.e3c18bfb.js.map",
+    "static/js/2.7a81cf9e.chunk.js": "/build/static/js/2.7a81cf9e.chunk.js",
+    "static/js/2.7a81cf9e.chunk.js.map": "/build/static/js/2.7a81cf9e.chunk.js.map",
+    "index.html": "/build/index.html",
+    "precache-manifest.ed898b77191c8fa52c682c53c239914e.js": "/build/precache-manifest.ed898b77191c8fa52c682c53c239914e.js",
+    "service-worker.js": "/build/service-worker.js",
+    "static/css/main.d08112e8.chunk.css.map": "/build/static/css/main.d08112e8.chunk.css.map",
+    "static/js/2.7a81cf9e.chunk.js.LICENSE.txt": "/build/static/js/2.7a81cf9e.chunk.js.LICENSE.txt",
+    "static/media/index.css": "/build/static/media/icon_heart_hover.876106c6.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.3807cc2a.js",
+    "static/js/runtime-main.e3c18bfb.js",
     "static/js/2.7a81cf9e.chunk.js",
-    "static/css/main.148faafc.chunk.css",
+    "static/css/main.d08112e8.chunk.css",
     "static/js/main.df5de624.chunk.js"
   ]
 }
