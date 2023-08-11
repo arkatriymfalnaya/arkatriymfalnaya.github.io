@@ -1,0 +1,11 @@
+{
+  "name": "arkatriymfalnaya.github.io",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:arkatriymfalnaya/arkatriymfalnaya.github.io.git",
+  "author": "<arkadyrakovsky@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "astro": "^2.10.5"
+  }
+}
