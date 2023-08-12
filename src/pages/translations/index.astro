@@ -1,0 +1,34 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+
+const title = 'translations';
+const description = 'latest translations';
+const permalink = `${Astro.site.href}translations`;
+
+let allTranslations = await Astro.glob('../../data/translations-posts/*.md');
+
+allTranslations = allTranslations.sort((a, b) => new Date(b.frontmatter.publishDate).valueOf() - new Date(a.frontmatter.publishDate).valueOf()); 
+--- 
+ 
+<BaseLayout title={title} description={description} permalink={permalink} current="translations">
+  <div class="container">
+    <h1>translations</h1>
+    {allTranslations.map((t, index) => {
+      const href = `/translations/${t.file.split('/').pop().split('.').shift()}`;
+      return (
+        <div>
+          { index !== 0 && <hr /> }
+          <div class="post-item">
+            <h2>
+              <a href={href}>{t.frontmatter.title}</a>
+            </h2>
+            <p>{t.frontmatter.description}</p>
+            <div class="post-item-footer">
+              <span class="post-item-date">— {t.frontmatter.publishDate}</span>
+            </div>
+          </div>
+        </div>
+      )
+    })}
+  </div>
+</BaseLayout>
