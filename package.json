@@ -14,7 +14,7 @@
   },
   "devDependencies": {
     "@astrojs/mdx": "^0.8.3",
-    "astro": "^1.0.3",
+    "astro": "^6.1.6",
     "rehype-external-links": "^2.0.0"
   },
   "dependencies": {
