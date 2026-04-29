@@ -1,9 +1,10 @@
 ---js
 const eleventyNavigation = {
-	key: "About",
+	key: "обо мне",
 	order: 3
 };
 ---
-# About
+
+# about
 
 I am a person that writes stuff.
