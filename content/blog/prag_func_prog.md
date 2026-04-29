@@ -1,6 +1,7 @@
 ---
 title: прагматичное функциональное программирование [перевод]
 description:
+keywords: переводы статей it
 date: 2024-04-24
 tags: ["computer_science", "architecture", "переводы"]
 ---

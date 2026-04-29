@@ -1,6 +1,7 @@
 ---
 title: концепты чистого кода, адаптированные для javascript [перевод]
 description:
+keywords: javascript frontend
 date: 2023-10-15
 tags: ["computer_science", "javascript", "architecture", "переводы"]
 ---

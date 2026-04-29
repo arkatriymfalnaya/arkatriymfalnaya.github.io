@@ -1,6 +1,7 @@
 ---
 title: ускоренные async функции и промисы [перевод]
 description:
+keywords: переводы статей it javascript frontend
 date: 2022-01-24
 tags: ["javascript", "переводы"]
 ---

@@ -1,6 +1,7 @@
 ---
 title: проблема мозга [перевод]
 description:
+keywords: переводы статей it
 date: 2023-11-02
 tags: ["computer_science", "переводы"]
 ---

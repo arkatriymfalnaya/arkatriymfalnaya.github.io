@@ -1,6 +1,7 @@
 ---
 title: до behavioral interview
 description:
+keywords: переводы статей it
 date: 2024-09-22
 tags: ["career", "conspects"]
 ---

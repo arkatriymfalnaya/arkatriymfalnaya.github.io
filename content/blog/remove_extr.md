@@ -1,6 +1,7 @@
 ---
 title: как я избавлялся от экстремизма в блоге
 description:
+keywords: javascript frontend nodejs tutorial
 date: 2025-01-12
 tags: ["tutorial", "nodejs", "bash", "scripts", "webdev"]
 ---

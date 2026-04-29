@@ -1,0 +1,15 @@
+---js
+const eleventyNavigation = {
+	key: "проекты",
+	order: 2
+};
+---
+
+<h1>проекты</h1>
+
+<ul>
+{% for project in projects %}
+	{% set projectUrl %}/projects/{{ project | slugify }}/{% endset %}
+	<li><a href="{{ projectUrl }}" class="post-project">{{ project }}</a></li>
+{% endfor %}
+</ul>

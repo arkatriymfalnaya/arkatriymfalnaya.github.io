@@ -1,6 +1,7 @@
 ---
 title: как наложить блюр в фигме
 description:
+keywords: фигма блюр
 date: 2026-04-24
 tags: ["figma", "tutorial"]
 ---

@@ -1,6 +1,7 @@
 ---
 title: как конвертировать пачку изображений в webp
 description:
+keywords: it bash
 date: 2025-09-24
 tags: ["tutorial", "bash"]
 ---

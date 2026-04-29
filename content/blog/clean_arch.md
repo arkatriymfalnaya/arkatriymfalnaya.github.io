@@ -1,6 +1,7 @@
 ---
 title: чистая архитектура [перевод]
 description:
+keywords: переводы статей it
 date: 2025-02-24
 tags: ["computer_science", "переводы"]
 ---

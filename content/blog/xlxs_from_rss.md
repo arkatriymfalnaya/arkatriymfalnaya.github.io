@@ -1,6 +1,7 @@
 ---
 title: генерируем xlsx из rss фида
-description:
+description: генерируем xlsx из rss фида
+keywords: nodejs xlsx rss
 date: 2025-05-24
 tags: ["nodejs", "rss", "scripts", "bash", "webdev"]
 ---

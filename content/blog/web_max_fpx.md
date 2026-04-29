@@ -1,6 +1,7 @@
 ---
 title: весь веб на максимум fps. как webrender избавляется от рывков [перевод]
 description:
+keywords: переводы статей it
 date: 2023-04-24
 tags: ["computer_science", "переводы"]
 ---
