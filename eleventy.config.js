@@ -70,7 +70,7 @@ export default async function (eleventyConfig) {
 		stylesheet: "pretty-atom-feed.xsl",
 		templateData: {
 			eleventyNavigation: {
-				key: "лента",
+				key: "rss",
 				order: 4,
 			},
 		},
@@ -130,6 +130,8 @@ export default async function (eleventyConfig) {
 	// https://www.11ty.dev/docs/copy/#emulate-passthrough-copy-during-serve
 
 	// eleventyConfig.setServerPassthroughCopyBehavior("passthrough");
+
+	eleventyConfig.addPassthroughCopy({ "public/favicon.ico": "favicon.ico" });
 }
 
 export const config = {

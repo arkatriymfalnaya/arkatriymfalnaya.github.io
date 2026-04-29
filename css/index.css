@@ -13,7 +13,7 @@
 	--color-gray-50: #c0c0c0;
 	--color-gray-90: #333;
 
-	--background-color: #fefdf5;
+	--background-color: #fff;
 
 	--text-color: var(--color-gray-90);
 	--text-color-link: #082840;
@@ -131,6 +131,17 @@ footer {
 }
 
 header {
+	border-bottom: 1px dashed var(--color-gray-20);
+}
+
+.quote {
+	padding: 1em 0;
+	border-top: 1px dashed var(--color-gray-20);
+	border-bottom: 1px dashed var(--color-gray-20);
+}
+
+.intro {
+	padding-bottom: 1em;
 	border-bottom: 1px dashed var(--color-gray-20);
 }
 
@@ -289,4 +300,46 @@ header {
 }
 .post-metadata time {
 	margin-right: 1em;
+}
+
+.about-page {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.about-page > div:first-of-type {
+	max-width: 60%;
+}
+
+.about-page_logo {
+	width: 250px;
+	height: auto;
+}
+
+@media (max-width: 900px) {
+	.about-page {
+		flex-direction: column;
+	}
+
+	.about-page > div:first-of-type {
+		max-width: 100%;
+	}
+
+	.about-page_logo {
+		width: 140px;
+		margin: auto;
+	}
+}
+
+@media (max-width: 720px) {
+	header {
+		display: flex;
+		flex-direction: column;
+		align-items: flex-start;
+	}
+
+	.nav {
+		flex-direction: column;
+	}
 }
