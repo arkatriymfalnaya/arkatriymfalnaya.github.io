@@ -2,7 +2,7 @@
 title: подключаем lcd дисплей к arduino
 description:
 keywords: arduino uno дисплей
-date: 2026-05-17
+date: 2026-04-17
 tags: ["computer_science", "arduino"]
 ---
 
@@ -41,3 +41,5 @@ void loop() {
   }
 }
 ```
+
+**убедитесь в том, что на плате постоянное питание (не от батарейки)**
