@@ -24,7 +24,7 @@ const eleventyNavigation = {
     </div>
     <div class="about-page_logo" markdown="1">
 
-    	![Alt Text](../public/img/logo.jpeg)
+    	![Alt Text](/img/logo.jpeg)
 
     </div>
 
