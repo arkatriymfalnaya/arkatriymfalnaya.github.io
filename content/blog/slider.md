@@ -2,7 +2,7 @@
 title: очередной слайдер, которого никто не просил
 description:
 keywords: javascript frontend tutorial
-date: 2025-02-24
+date: 2023-02-24
 tags: ["frontend", "tutorial", "typescript", "webdev"]
 ---
 

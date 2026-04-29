@@ -1,7 +1,7 @@
 ---
 title: дневник от 07/11/25
 description:
-date: 2025-11-07
+date: 2024-11-07
 tags: ["diary"]
 ---
 

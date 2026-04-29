@@ -295,6 +295,6 @@ await workbook.xlsx
 process.stdout.write(`all done, love!\n`);
 ```
 
-таблица в кармане, profit!
+profit!
 
-исходный код: https://github.com/arkatriymfalnaya/xlsx-from-rss-generator
+[source code](https://github.com/arkatriymfalnaya/xlsx-from-rss-generator)

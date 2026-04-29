@@ -1,7 +1,7 @@
 ---
 title: дневник от 15/03/26
 description:
-date: 2026-03-15
+date: 2025-03-15
 tags: ["diary"]
 ---
 

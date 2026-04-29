@@ -1,21 +1,23 @@
-## Getting Started
-
-1. Install dependencies
+1. install dependencies
 
 ```
 npm install
 ```
 
-2. Run Eleventy
+2. run eleventy
 
-Generate a production-ready build to the `_site` folder:
+generate a production-ready build to the `_site` folder:
 
 ```
 npx @11ty/eleventy
 ```
 
-Or build and host on a local development server:
+or build and host on a local development server:
 
 ```
 npx @11ty/eleventy --serve
 ```
+
+---
+
+based on https://github.com/11ty/eleventy-base-blog/

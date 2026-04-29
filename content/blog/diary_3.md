@@ -1,7 +1,7 @@
 ---
 title: дневник от 02/02/23
 description:
-date: 2023-02-02
+date: 2024-02-02
 tags: ["diary"]
 ---
 

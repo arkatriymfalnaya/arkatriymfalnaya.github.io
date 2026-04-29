@@ -5,10 +5,12 @@ const eleventyNavigation = {
 };
 ---
 
-# эбаут
+# эбаут ми
 
 <div class="about-page">
     <div>
+
+    [infj](https://www.16personalities.com/ru/lichnost-infj)
 
     разработка всякого рода, более специфично: веб и его экосистема.
 

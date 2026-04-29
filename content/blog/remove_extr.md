@@ -1,5 +1,5 @@
 ---
-title: как я избавлялся от экстремизма в блоге
+title: как я "избавлялся от экстремизма" в блоге
 description:
 keywords: javascript frontend nodejs tutorial
 date: 2025-01-12
@@ -90,4 +90,4 @@ fs.writeFileSync(path.join(__dirname, `output_${fileName}`), xmlContent);
 
 ![Image description](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/nieiz68ro34yviib8bwe.png)
 
-исходный код: https://github.com/arkatriymfalnaya/avoid-extremism
+[source code](https://github.com/arkatriymfalnaya/avoid-extremism)
