@@ -1,6 +1,7 @@
 ---
 title: javascripts maps tips & tricks
 description:
+keywords: javascript frontend
 date: 2022-12-24
 tags: ["computer_science", "javascripts", "conspects"]
 ---

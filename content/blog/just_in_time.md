@@ -1,6 +1,7 @@
 ---
 title: как начать just-in-time-ить [перевод]
 description:
+keywords: переводы статей it
 date: 2023-02-24
 tags: ["computer_science", "переводы"]
 ---

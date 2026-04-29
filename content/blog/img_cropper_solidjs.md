@@ -1,6 +1,7 @@
 ---
 title: image cropper на solidjs
 description:
+keywords: javascript frontend solidjs tutorial
 date: 2026-03-24
 tags: ["frontend", "tutorial", "solidjs", "webdev"]
 ---

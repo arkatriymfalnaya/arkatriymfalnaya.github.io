@@ -1,6 +1,7 @@
 ---
 title: море узлов [перевод]
 description:
+keywords: переводы статей it
 date: 2021-04-24
 tags: ["computer_science", "переводы"]
 ---

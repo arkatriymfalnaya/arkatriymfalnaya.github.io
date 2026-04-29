@@ -1,6 +1,7 @@
 ---
 title: кастомный аудиоплеер на solidjs вокруг нативного audio api
 description:
+keywords: javascript frontend solidjs tutorial
 date: 2026-01-24
 tags: ["frontend", "tutorial", "typescript", "solidjs", "webdev"]
 ---

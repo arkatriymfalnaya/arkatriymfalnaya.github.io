@@ -1,0 +1,16 @@
+---js
+// <script>
+const pagination = {
+	data: "collections",
+	size: 1,
+	alias: "project",
+};
+
+---
+
+<h1>{{ project }}</h1>
+
+{% set postslist = collections[ project ] %}
+{% include "postslist.njk" %}
+
+<p><a href="projects.njk">все проекты</a></p>

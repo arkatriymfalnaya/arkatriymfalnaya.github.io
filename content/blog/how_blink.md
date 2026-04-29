@@ -1,6 +1,7 @@
 ---
 title: как работает blink [перевод]
 description:
+keywords:
 date: 2022-06-24
 tags: ["computer_science", "browsers", "переводы"]
 ---

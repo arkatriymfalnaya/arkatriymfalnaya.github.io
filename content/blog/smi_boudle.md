@@ -1,6 +1,7 @@
 ---
 title: smi и double представления [перевод]
 description:
+keywords: переводы статей it
 date: 2021-09-24
 tags: ["computer_science", "переводы"]
 ---

@@ -1,6 +1,7 @@
 ---
 title: история обвала производительности v8 в react [перевод]
 description:
+keywords: javascript frontend browsers react v8
 date: 2022-04-24
 tags: ["computer_science", "javascript", "react", "переводы"]
 ---

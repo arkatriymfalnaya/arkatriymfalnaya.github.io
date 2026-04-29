@@ -1,6 +1,7 @@
 ---
 title: назначаем числа [перевод]
 description:
+keywords: переводы статей it
 date: 2020-09-24
 tags: ["computer_science", "переводы"]
 ---

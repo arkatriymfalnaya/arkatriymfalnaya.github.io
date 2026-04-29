@@ -1,6 +1,7 @@
 ---
 title: javascripts design patterns
 description:
+keywords: javascript frontend
 date: 2024-02-24
 tags: ["computer_science", "javascripts", "architecture", "conspects"]
 ---

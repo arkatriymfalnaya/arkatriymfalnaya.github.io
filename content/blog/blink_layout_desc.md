@@ -1,6 +1,7 @@
 ---
 title: blink layout [перевод]
 description:
+keywords: javascript frontend browsers
 date: 2023-04-24
 tags: ["computer_science", "browsers", "переводы"]
 ---

@@ -1,6 +1,7 @@
 ---
 title: архитектурные стили и проектирование сетевых программных архитектур. REST [перевод]
 description:
+keywords: переводы статей it
 date: 2023-12-24
 tags: ["computer_science", "architecture", "переводы"]
 ---

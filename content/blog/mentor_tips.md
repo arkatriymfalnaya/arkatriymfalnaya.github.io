@@ -1,6 +1,7 @@
 ---
 title: наставник в it
 description:
+keywords:
 date: 2024-07-18
 tags: ["career", "conspects"]
 ---

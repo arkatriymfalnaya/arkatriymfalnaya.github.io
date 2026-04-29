@@ -1,6 +1,7 @@
 ---
 title: мы, программисты [перевод]
 description:
+keywords: переводы статей it
 date: 2024-07-16
 tags: ["computer_science", "переводы"]
 ---
