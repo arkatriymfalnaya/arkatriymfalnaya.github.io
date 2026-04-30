@@ -61,7 +61,6 @@ html {
 body {
 	display: flex;
 	flex-direction: column;
-	max-width: 50em;
 	min-height: 100vh;
 }
 
@@ -121,13 +120,15 @@ a[href]:active {
 
 main,
 footer {
+	width: 50em;
 	padding: 1rem;
+	margin: 0 auto;
 }
 main :first-child {
 	margin-top: 0;
 }
-.body-wide {
-	max-width: 80em;
+.main-wide {
+	width: 100vw;
 }
 
 footer {
@@ -218,7 +219,7 @@ code {
 header,
 .body-wide header {
 	display: flex;
-	width: 700px;
+	max-width: 900px;
 	gap: 1em;
 	flex-wrap: wrap;
 	justify-content: space-between;
@@ -335,7 +336,7 @@ header,
 }
 
 .masonry-grid {
-	column-count: 3;
+	column-count: 4;
 	column-gap: 4px;
 }
 
@@ -367,6 +368,9 @@ header,
 		flex-direction: column;
 		align-items: flex-start;
 	}
+	.nav {
+		flex-direction: column;
+	}
 	.about-page {
 		flex-direction: column;
 	}
@@ -383,9 +387,6 @@ header,
 @media (max-width: 768px) {
 	.masonry-grid {
 		column-count: 2;
-	}
-	.nav {
-		flex-direction: column;
 	}
 }
 @media (max-width: 480px) {

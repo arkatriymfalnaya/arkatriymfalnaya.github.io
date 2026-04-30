@@ -109,7 +109,7 @@ export default async function (eleventyConfig) {
 
 	// eleventyConfig.setServerPassthroughCopyBehavior("passthrough");
 
-	eleventyConfig.addPassthroughCopy({ "public/favicon.ico": "favicon.ico" });
+	eleventyConfig.addPassthroughCopy({ "favicon.ico": "favicon.ico" });
 }
 
 export const config = {
