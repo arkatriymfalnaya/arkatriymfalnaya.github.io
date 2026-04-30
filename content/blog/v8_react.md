@@ -3,7 +3,7 @@ title: история обвала производительности v8 в re
 description:
 keywords: javascript frontend browsers react v8
 date: 2022-04-24
-tags: ["computer_science", "javascript", "react", "переводы"]
+tags: ["computer_science", "javascript", "reactjs", "переводы"]
 ---
 
 Вольный перевод статьи Benedikt Meurer и Mathias Bynens "[The story of a V8 performance cliff in React](https://v8.dev/blog/react-cliff)"

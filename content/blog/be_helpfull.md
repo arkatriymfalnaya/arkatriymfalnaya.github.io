@@ -3,7 +3,7 @@ title: будь полезен [перевод]
 description:
 keywords: переводы статей it
 date: 2023-04-24
-tags: ["computer_science", "careers", "переводы"]
+tags: ["computer_science", "career", "переводы"]
 ---
 
 Вольный перевод статьи Laurie Voss "[Be useful](https://seldo.tumblr.com/post/161335444560/be-useful)"
