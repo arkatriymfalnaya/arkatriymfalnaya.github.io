@@ -330,6 +330,7 @@ header,
 .modeling-specs {
 	border-bottom: 1px dashed var(--color-gray-20);
 	margin-bottom: 20px;
+	padding-bottom: 20px;
 }
 
 .modeling-specs_list {
@@ -388,14 +389,9 @@ header,
 }
 @media (max-width: 768px) {
 	.masonry-grid {
-		column-count: 2;
+		column-count: 1;
 	}
 	main {
 		max-width: 100vw;
-	}
-}
-@media (max-width: 480px) {
-	.masonry-grid {
-		column-count: 1;
 	}
 }
