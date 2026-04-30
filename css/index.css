@@ -31,11 +31,11 @@
 		--color-gray-90: #dad8d8;
 
 		/* --text-color is assigned to --color-gray-_ above */
-		--text-color-link: #1493fb;
-		--text-color-link-active: #6969f7;
-		--text-color-link-visited: #a6a6f8;
+		--text-color-link: #e7f6f2;
+		--text-color-link-active: #a5c9ca;
+		--text-color-link-visited: #a5c9ca;
 
-		--background-color: #15202b;
+		--background-color: #2c3333;
 	}
 }
 
@@ -171,7 +171,7 @@ header {
 	right: 20px;
 	top: 80px;
 	width: 13rem;
-	background: white;
+	background-color: var(--background-color);
 	border-radius: 12px;
 	box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
 	z-index: 1000;
@@ -190,10 +190,6 @@ header {
 	border-radius: 6px;
 }
 
-.toc-toggle:hover {
-	background: #f0f0f0;
-}
-
 .toc-list {
 	list-style: none;
 	margin: 0;
@@ -208,15 +204,15 @@ header {
 .toc-link {
 	display: block;
 	padding: 6px 16px;
-	color: #333;
 	text-decoration: none;
 	transition: all 0.2s;
 	cursor: pointer;
+	border-left: 3px solid transparent;
 }
 
 .toc-link:hover {
-	background: #f5f5f5;
-	color: #007bff;
+	background-color: var(--background-color);
+	color: var(--text-color);
 }
 
 .toc-item-h2 .toc-link {
@@ -232,13 +228,18 @@ header {
 }
 
 .toc-item.active .toc-link {
-	color: #000;
 	font-weight: 600;
-	border-left: 3px solid #007bff;
+	border-left-color: #eecea0;
+}
+.toc-item .toc-link:visited {
+	color: var(--color-gray-20) !important;
+}
+.toc-turn-off {
+	display: none;
 }
 
 .floating-toc.hidden {
-	transform: translateX(calc(100% + 20px));
+	display: none;
 }
 
 #skip-link {
@@ -445,8 +446,8 @@ header {
 .masonry-item {
 	break-inside: avoid;
 	margin-bottom: 4px;
-	border: 1px solid rgba(0, 0, 0, 0.1);
-	border-radius: 10px;
+	border: 3px solid transparent;
+	border-radius: 18px;
 	overflow: hidden;
 	background: rgba(0, 0, 0, 0.03) url("/img/loader.gif") center no-repeat;
 }
@@ -467,7 +468,36 @@ header {
 		right: auto;
 	}
 	.floating-toc {
-		display: none;
+		bottom: 0;
+		top: auto;
+		right: 0;
+		left: 0;
+		width: 100%;
+		border-radius: 16px 16px 0 0;
+		max-height: 30vh;
+		-webkit-box-shadow: 2px -3px 11px 8px rgba(135, 147, 156, 0.2);
+		-moz-box-shadow: 2px -3px 11px 8px rgba(135, 147, 156, 0.2);
+		box-shadow: 2px -3px 11px 8px rgba(135, 147, 156, 0.2);
+	}
+	.toc-turn-off {
+		display: block;
+		position: absolute;
+		top: 12px;
+		right: 12px;
+		background: none;
+		border: none;
+		font-size: 20px;
+		cursor: pointer;
+		padding: 4px 8px;
+		border-radius: 6px;
+		color: var(--color-gray-90);
+	}
+	.toc-list {
+		max-width: 90%;
+	}
+
+	.floating-toc.hidden {
+		transform: translateY(100%);
 	}
 }
 @media (max-width: 1200px) {

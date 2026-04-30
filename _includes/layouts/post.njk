@@ -60,6 +60,8 @@ layout: layouts/base.njk
         
         const tocHtml = `
           <div class="floating-toc">
+            <button class="toc-turn-off" title="Скрыть">✕</button>
+
             <ul class="toc-list">
               ${headings.map(heading => `
                 <li class="toc-item toc-item-${heading.tagName.toLowerCase()}">
@@ -73,7 +75,7 @@ layout: layouts/base.njk
         document.body.insertAdjacentHTML('beforeend', tocHtml);
         
         const toc = document.querySelector('.floating-toc');
-        const toggleBtn = toc.querySelector('.toc-toggle');
+        const turnOffBtn = toc.querySelector('.toc-turn-off');
         const links = toc.querySelectorAll('.toc-link');
         
         links.forEach(link => {
@@ -94,6 +96,12 @@ layout: layouts/base.njk
               updateActiveLink(targetId);
             }
           });
+        });
+
+        let isVisible = true;
+        turnOffBtn.addEventListener('click', () => {
+          isVisible = !isVisible;
+          toc.classList.toggle('hidden', !isVisible);
         });
         
         let ticking = false;
