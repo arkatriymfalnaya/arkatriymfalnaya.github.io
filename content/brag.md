@@ -142,7 +142,7 @@ my main responsibilities were:
 
 personal achievements:
 
-- implemented the debugger, improving devexp [https://github.com/dmtrkovalenko/fframes/commit/110ef64342d05b7b3690cdbcacd088d6f7b91fe7](https://github.com/dmtrkovalenko/fframes/commit/110ef64342d05b7b3690cdbcacd088d6f7b91fe7)
+- implemented the debugger, improving devexp [github](https://github.com/dmtrkovalenko/fframes/commit/110ef64342d05b7b3690cdbcacd088d6f7b91fe7)
 
 ---
 

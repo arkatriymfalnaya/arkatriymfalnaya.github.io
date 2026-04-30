@@ -127,7 +127,7 @@ main {
 main :first-child {
 	margin-top: 0;
 }
-.main-wide {
+.main__wide {
 	width: 100vw;
 }
 

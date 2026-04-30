@@ -57,7 +57,7 @@
 		<noscript><div><img src="https://mc.yandex.ru/watch/108978791" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
 		<!-- /Yandex.Metrika counter -->
 	</head>
-	<body>
+	<body class="body__wide">
 		<header>
 			<a href="/" class="home-link">{{ metadata.title }}</a>
 
@@ -72,16 +72,14 @@
 			</nav>
 		</header>
 
-		<main id="main" class="main-wide">
+		<main id="main" class="main__wide">
 			<heading-anchors>
 				{{ content | safe }}
 			</heading-anchors>
 		</main>
 
 		<footer>
-			<p>
-				<em>сделано на <a href="https://www.11ty.dev/">eleventy</a></em>
-			</p>
+			 © 2024—2026. сделано на <a href="https://www.11ty.dev/">eleventy</a>
 		</footer>
 
 		<!-- This page `{{ page.url }}` was built on {% currentBuildDate %} -->
