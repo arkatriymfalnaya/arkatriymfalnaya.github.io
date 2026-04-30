@@ -2,8 +2,6 @@
 const numberOfLatestPostsToShow = 4;
 ---
 
-<div class="intro">hey <br/> i make something</div> 
-
 {% set postsCount = collections.posts | length %}
 {% set latestPostsCount = postsCount | min(numberOfLatestPostsToShow) %}
 <h1>последние посты</h1>

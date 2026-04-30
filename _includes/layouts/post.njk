@@ -1,28 +1,153 @@
 ---
 layout: layouts/base.njk
 ---
+
 {# Only include the syntax highlighter CSS on blog posts, included with the CSS per-page bundle #}
 <style>{% include "node_modules/prismjs/themes/prism-okaidia.css" %}</style>
 <style>{% include "css/prism-diff.css" %}</style>
-<h1>{{ title }}</h1>
 
-<ul class="post-metadata">
-	<li><time datetime="{{ page.date | htmlDateString }}">{{ page.date | readableDate }}</time></li>
-	{%- for tag in tags | filterTagList %}
-	{%- set tagUrl %}/tags/{{ tag | slugify }}/{% endset %}
-	<li><a href="{{ tagUrl }}" class="post-tag">{{ tag }}</a>{%- if not loop.last %}, {% endif %}</li>
-	{%- endfor %}
-</ul>
+<article>
 
-{{ content | safe }}
+	<h1>{{ title }}</h1>
 
-{%- if collections.posts %}
-{%- set previousPost = collections.posts | getPreviousCollectionItem %}
-{%- set nextPost = collections.posts | getNextCollectionItem %}
-{%- if nextPost or previousPost %}
-<ul class="links-nextprev">
-	{%- if previousPost %}<li class="links-nextprev-prev"><a href="{{ previousPost.url }}">← прошлый</a></li>{% endif %}
-	{%- if nextPost %}<li class="links-nextprev-next"><a href="{{ nextPost.url }}">следующий →</a></li>{% endif %}
-</ul>
-{%- endif %}
-{%- endif %}
+	<ul class="post-metadata">
+		<li><time datetime="{{ page.date | htmlDateString }}">{{ page.date | readableDate }}</time></li>
+		{%- for tag in tags | filterTagList %}
+		{%- set tagUrl %}/tags/{{ tag | slugify }}/{% endset %}
+		<li><a href="{{ tagUrl }}" class="post-tag">{{ tag }}</a>{%- if not loop.last %}, {% endif %}</li>
+		{%- endfor %}
+	</ul>
+
+	{{ content | safe }}
+
+	{%- if collections.posts %}
+	{%- set previousPost = collections.posts | getPreviousCollectionItem %}
+	{%- set nextPost = collections.posts | getNextCollectionItem %}
+	{%- if nextPost or previousPost %}
+	<ul class="links-nextprev">
+		{%- if previousPost %}<li class="links-nextprev-prev"><a href="{{ previousPost.url }}">← прошлый</a></li>{% endif %}
+		{%- if nextPost %}<li class="links-nextprev-next"><a href="{{ nextPost.url }}">следующий →</a></li>{% endif %}
+	</ul>
+	{%- endif %}
+	{%- endif %}
+
+</article>
+
+<script>
+(function() {
+      if (document.readyState === 'loading') {
+        window.addEventListener('load', initToc);
+      } else {
+        initToc();
+      }
+      
+      function initToc() {
+        const article = document.querySelector('main, .post-content, article');
+        if (!article) return;
+        
+        const headings = Array.from(article.querySelectorAll('h1, h2, h3, h4'));
+        if (headings.length === 0) return;
+        
+        headings.forEach((heading, idx) => {
+          if (!heading.id) {
+            const text = heading.textContent || `heading-${idx}`;
+            heading.id = text
+              .toLowerCase()
+              .replace(/[^\w\u0400-\u04FF]+/g, '-')
+              .replace(/^-+|-+$/g, '');
+          }
+        });
+        
+        const tocHtml = `
+          <div class="floating-toc">
+            <ul class="toc-list">
+              ${headings.map(heading => `
+                <li class="toc-item toc-item-${heading.tagName.toLowerCase()}">
+                  <a class="toc-link" href="#${heading.id}">${escapeHtml(heading.textContent.replace('#',''))}</a>
+                </li>
+              `).join('')}
+            </ul>
+          </div>
+        `;
+        
+        document.body.insertAdjacentHTML('beforeend', tocHtml);
+        
+        const toc = document.querySelector('.floating-toc');
+        const toggleBtn = toc.querySelector('.toc-toggle');
+        const links = toc.querySelectorAll('.toc-link');
+        
+        links.forEach(link => {
+          link.addEventListener('click', (e) => {
+            e.preventDefault();
+            const targetId = link.getAttribute('href').slice(1);
+            const target = document.getElementById(targetId);
+            
+            if (target) {
+              const offset = 80;
+              const top = target.getBoundingClientRect().top + window.scrollY - offset;
+              
+              window.scrollTo({
+                top: top,
+                behavior: 'smooth'
+              });
+              
+              updateActiveLink(targetId);
+            }
+          });
+        });
+        
+        let ticking = false;
+        window.addEventListener('scroll', () => {
+          if (!ticking) {
+            requestAnimationFrame(() => {
+              updateActiveHeading();
+              ticking = false;
+            });
+            ticking = true;
+          }
+        });
+        
+        function updateActiveHeading() {
+          let activeHeading = null;
+          let activePos = Infinity;
+          
+          headings.forEach(heading => {
+            const rect = heading.getBoundingClientRect();
+            if (rect.top <= 120 && rect.top >= -100) {
+              activeHeading = heading;
+              activePos = Math.abs(rect.top);
+            }
+          });
+          
+          if (activeHeading) {
+            updateActiveLink(activeHeading.id);
+          }
+        }
+        
+        function updateActiveLink(activeId) {
+          links.forEach(link => {
+            const href = link.getAttribute('href').slice(1);
+            const parentLi = link.closest('.toc-item');
+            
+            if (href === activeId) {
+              parentLi.classList.add('active');
+              
+              setTimeout(() => {
+                parentLi.scrollIntoView({ block: 'nearest', behavior: 'smooth' });
+              }, 100);
+            } else {
+              parentLi.classList.remove('active');
+            }
+          });
+        }
+        
+        setTimeout(() => updateActiveHeading(), 100);
+        
+        function escapeHtml(str) {
+          const div = document.createElement('div');
+          div.textContent = str;
+          return div.innerHTML;
+        }
+      }
+    })();
+</script>
