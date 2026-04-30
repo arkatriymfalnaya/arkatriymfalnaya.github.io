@@ -218,8 +218,7 @@ code {
 }
 
 /* Header */
-header,
-.body-wide header {
+header {
 	display: flex;
 	max-width: 900px;
 	gap: 1em;
@@ -229,6 +228,17 @@ header,
 	padding: 1em;
 	margin: 0 auto;
 }
+
+.body__wide header {
+	display: flex;
+	max-width: 900px;
+	gap: 1em;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	padding: 1em;
+	margin: 0 auto;
+}
+
 .home-link {
 	flex-grow: 1;
 	font-size: 1em; /* 16px /16 */
@@ -349,6 +359,7 @@ header,
 	border: 1px solid rgba(0, 0, 0, 0.1);
 	border-radius: 10px;
 	overflow: hidden;
+	background: rgba(0, 0, 0, 0.03) url("/img/loader.gif") center no-repeat;
 }
 
 .masonry-item img {

@@ -12,7 +12,7 @@ const eleventyNavigation = {
 
     [infj](https://www.16personalities.com/ru/lichnost-infj)
 
-    тут разработка и другое
+    разработка и другое
 
     интересуюсь проектами, которые оказывают позитивное влияние на общество и улучшают качество жизни людей.<br/>
     напишите, если на таком нужна помощь. мой волонтерский опыт можно найти на [linkedin](https://www.linkedin.com/in/arkadzi-rakouski/)
