@@ -46,8 +46,8 @@ layout: layouts/base.njk
         if (!article) return;
         
         const headings = Array.from(article.querySelectorAll('h1, h2, h3, h4'));
-        if (headings.length === 0) return;
-        
+        if (headings.length <= 1) return;
+
         headings.forEach((heading, idx) => {
           if (!heading.id) {
             const text = heading.textContent || `heading-${idx}`;
