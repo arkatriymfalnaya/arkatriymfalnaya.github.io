@@ -188,6 +188,6 @@ my main responsibilities were:
 
 personal achievements:
 
-- got promoted to middle full-stack engineer afulltimeer one year.
+- got promoted to middle full-stack engineer after one year.
 
 </div>
