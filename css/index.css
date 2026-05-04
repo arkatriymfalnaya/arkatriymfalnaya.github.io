@@ -179,6 +179,12 @@ header {
 	max-height: 50vh;
 	overflow-y: auto;
 	transition: transform 0.3s ease;
+	-ms-overflow-style: none; /* IE and Edge */
+	scrollbar-width: none; /* Firefox */
+}
+
+.floating-toc::-webkit-scrollbar {
+	display: none;
 }
 
 .toc-toggle {
