@@ -222,7 +222,7 @@ export async function GET(request: Request) {
 
 когда асинхронные операции не зависят друг от друга, запускай их параллельно через `Promise.all()`.
 
-**❌ неправильно: последовательно, 3往返а**
+\*\*❌ неправильно: последовательно
 
 ```js
 const user = await fetchUser();
@@ -230,7 +230,7 @@ const posjs = await fetchPosjs();
 const commenjs = await fetchCommenjs();
 ```
 
-**✅ правильно: параллельно, 1往返**
+\*\*✅ правильно: параллельно
 
 ```js
 const [user, posjs, commenjs] = await Promise.all([
