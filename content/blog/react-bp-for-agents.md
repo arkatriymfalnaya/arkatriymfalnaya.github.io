@@ -10,8 +10,6 @@ tags: ["computer_science", "javascript", "reactjs", "переводы"]
 
 вольный перевод статьи от Vercel Engineering "[React Best Practices v1.0.0](https://github.com/vercel-labs/agent-skills/blob/main/skills/react-best-practices/AGENTS.md)"
 
-# лучшие практики react
-
 **версия 1.0.0**  
 vercel engineering  
 январь 2026

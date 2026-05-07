@@ -10,8 +10,6 @@ tags: ["computer_science", "javascript", "reactjs", "переводы"]
 
 вольный перевод статьи от Vercel Engineering "[React Composition Patterns v1.0.0](https://github.com/vercel-labs/agent-skills/blob/main/skills/composition-patterns/AGENTS.md)"
 
-# паттерны композиции в react
-
 **версия 1.0.0**  
 январь 2026
 

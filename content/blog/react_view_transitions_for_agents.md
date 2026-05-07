@@ -10,8 +10,6 @@ tags: ["computer_science", "javascript", "reactjs", "переводы"]
 
 вольный перевод статьи от Vercel Engineering "[React View Transitions v1.0.0](https://github.com/vercel-labs/agent-skills/blob/main/skills/react-view-transitions/AGENTS.md)"
 
-# view transitions в react
-
 **версия 1.0.0**
 vercel engineering
 март 2026
