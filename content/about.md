@@ -36,17 +36,17 @@ const eleventyNavigation = {
 
 ## контакты
 
-[telegram](https://t.me/arka_triymfalnaya) \
+[tg](https://t.me/arka_triymfalnaya) \
 [mail](mailto:arkadyrakovsky@gmail.com)
 
 [github](https://github.com/arkatriymfalnaya) \
 [linkedin](https://www.linkedin.com/in/arkadzi-rakouski/)
+[vas3k.club](https://vas3k.club/user/arkadzirakouski/)
 
-[teacher army](https://teacher.army/mentors/arkadzirakouski) \
+[teacherarmy](https://teacher.army/mentors/arkadzirakouski) \
 [getmentor](https://getmentor.dev/mentor/arkadiy-rakovskiy-2360)
 
-[twitter](https://x.com/scumdograscal) \
+[tg канал](https://t.me/+Rrhd9MJWkBQyMGIy) \
 [instagram](https://www.instagram.com/scumdograscal/) \
-[twitch](https://www.twitch.tv/scumdograscal) \
-[telegram канал](https://t.me/+Rrhd9MJWkBQyMGIy) \
-[vas3k.club](https://vas3k.club/user/arkadzirakouski/)
+[youtube](https://www.youtube.com/@scumdograscal) \
+[twitch](https://www.twitch.tv/scumdograscal)
