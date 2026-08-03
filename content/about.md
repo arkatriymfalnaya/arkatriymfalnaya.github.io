@@ -40,13 +40,14 @@ const eleventyNavigation = {
 [mail](mailto:arkadyrakovsky@gmail.com)
 
 [github](https://github.com/arkatriymfalnaya) \
-[linkedin](https://www.linkedin.com/in/arkadzi-rakouski/)
+[linkedin](https://www.linkedin.com/in/arkadzi-rakouski/) \
 [vas3k.club](https://vas3k.club/user/arkadzirakouski/)
 
 [teacherarmy](https://teacher.army/mentors/arkadzirakouski) \
 [getmentor](https://getmentor.dev/mentor/arkadiy-rakovskiy-2360)
 
 [tg канал](https://t.me/+Rrhd9MJWkBQyMGIy) \
-[instagram](https://www.instagram.com/scumdograscal/) \
 [youtube](https://www.youtube.com/@scumdograscal) \
+[instagram](https://www.instagram.com/scumdograscal/) \
+[tiktok](https://www.tiktok.com/@scumdograscal) \
 [twitch](https://www.twitch.tv/scumdograscal)
