@@ -8,13 +8,8 @@ const eleventyNavigation = {
 <h1>личные проекты</h1>
 
 <ul>
-{% for project in projects %}
-	{% set projectUrl %}/projects/{{ project | slugify }}/{% endset %}
-	<li><a href="{{ projectUrl }}" class="post-project">{{ project }}</a></li>
-{% endfor %}
-
-	<li class="post-project">
-		unified research engineer [myself] - <strong>WIP</strong>
+	<li>
+		<a href="https://github.com/arkatriymfalnaya/unified_engineering" class="post-project">unified engineer</a> - <strong>WIP</strong>
 	</li>
 	<br/>
 	<li class="post-project">
