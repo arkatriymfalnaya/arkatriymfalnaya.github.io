@@ -36,7 +36,6 @@ const eleventyNavigation = {
 
 ## ссылки
 
-[tg канал](https://t.me/+Rrhd9MJWkBQyMGIy) \
 [tg](https://t.me/arka_triymfalnaya) \
 [twitch](https://www.twitch.tv/scumdograscal) \
 [github](https://github.com/arkatriymfalnaya)
